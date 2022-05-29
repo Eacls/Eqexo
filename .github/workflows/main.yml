@@ -1,0 +1,40 @@
+name: Hexo Deploy
+
+# 只监听 source 分支的改动
+on:
+  push:
+    branches:
+      - main
+
+# 自定义环境变量
+env:
+  GIT_USER: eacls
+  GIT_EMAIL: eacls@eacls.top
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 获取博客源码和主题
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      # 这里用的是 Node.js 13.x，14.x 生成 Hexo 静态页面会有问题
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '13'
+
+      # 安装依赖
+      - name: Install Dependencies
+        run: |
+          npm install
+
+      # 生成并部署 `npx hexo clean && npx hexo g -d` or `npm run deploy`
+      - name: Deploy
+        run: |
+          rm -rf .deploy_git
+          npx hexo clean && npx hexo g
+          npx hexo d
+          npx hexo clean

@@ -1,0 +1,56 @@
+- class_name: 关于博主
+  class_desc: 友商平台联系方式
+  link_list:
+    - name: 酷安
+      link: https://preview.cloud.189.cn/image/imageAction?param=B8EF249DCA3CF37AB8C901FCA76B6BF6F29A531005BB6ED718FD3681785324E60C9C6DF54141688DDE6CE612D25CAAEACE06C472CE7683AC14138EFF1B9793573947C228D902C7F6A1FC1463A213F1D96702F501A8B447E42665381BDD5C7D285C77124E9E28F204BE66DA9B541BA84F
+      avatar: https://z3.ax1x.com/2021/11/15/IgOUte.jpg
+      descr: CoolAPK
+    - name: B站
+      link: https://space.bilibili.com/494822595
+      avatar: https://z3.ax1x.com/2021/11/15/IgXF4e.jpg
+      descr: bilibili
+    - name: 微博
+      link: https://weibo.com/u/7372059004
+      avatar: https://z3.ax1x.com/2021/11/15/IgXND0.jpg
+      descr: weibo
+
+
+- class_name: 友情链接
+  class_desc: 朋友一生一起走
+  link_list:
+    - name: 梦繁星
+      link: https://www.emoao.com/
+      avatar: https://www.emoao.com/images/img/avatar.webp
+      descr: 不过是大梦一场空！
+    - name: Kaiboshi
+      link: https://kaiboshi.gitee.io/
+      avatar: https://cdn.jsdelivr.net/gh/kaiboshi/kaiboshi.github.io/medias/logo66.png
+      descr: 做一个有梦想的咸鱼
+    - name: Mhist的个人博客
+      link: http://mhist.github.io/
+      avatar: https://cdn.jsdelivr.net/gh/mhist/hexoImage@main/img/20210914112616catAvatar.png
+      descr: 日常笔记  技术博客
+    - name: iMaeGoo's Blog
+      link: https://www.imaegoo.com/
+      avatar: https://www.imaegoo.com/images/avatar.jpg
+      descr: 虹墨空间站
+    - name: Kindle deepのBlog
+      link: https://kindle-deep.github.io
+      avatar: https://cdn.jsdelivr.net/gh/Kindle-deep/image@main/RoundCorner.png
+      descr: Nothing is impossible to a willing heart.
+    - name: CC的部落格
+      link: https://blog.ccknbc.cc
+      avatar: https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/logo.png
+      descr: CC康纳百川的小窝，与你分享二三事
+    - name: Heo
+      link: https://blog.zhheo.com/
+      avatar: https://blog.zhheo.com/img/avatar.png
+      descr: 爱折腾的设计师 
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      avatar: https://unpkg.zhimg.com/akilar-candyassets/image/siteicon/favicon.png
+      descr: 期待您的光临！
+    - name: 小冰博客
+      link: https://zfe.one
+      avatar: https://zfe.space/images/headimage.png
+      descr: 做个有梦想的人！

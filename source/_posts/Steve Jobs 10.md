@@ -1,0 +1,23 @@
+---
+title: Steve Jobs 10
+date: 2021-10-5
+tags: 乔布斯
+top_img: https://preview.cloud.189.cn/image/imageAction?param=7F5B4BA452BB916E02B5C9AC8A3EE51979414B217C18282A48AD73450BB925270C1B0D31479461AB6F2CB8D49A5123879D3902BCCDDDD32F53E26739B014F40D791E8F12281A9BF62DBA5DE53583C26146180404DE72B404CE9D004EB13BC610A7D4A17D1398FB4FB431933CE936D9DD
+cover: https://preview.cloud.189.cn/image/imageAction?param=0B683E9B24C6DCA37CF94655D34AB1716E016CFB21966E12FCDFDC8FF2B688215FE9F3608099796EC28F72CCE6A9300F8AA097A834471EBF3FD5E9A914B603D1F67DA7D61AE4501BF29BD65D92E814E310E7410E140D523B308AFC4D3EDCDE40DC38A5A094372321E98B3940D769338D
+abbrlink: 2552
+updated: 2021-10-5
+comments: false
+aside: false
+description: Thank you Steve
+---
+
+
+今天是2021年10月5日，Steve Jobs逝世10周年。
+十年了，也不过只是一直在缅怀。
+我一生的遗憾，没能在他的时代去审视这个世界。
+曾无数次设想，如果他还活着，现在的世界会是怎么样，现在的苹果会是以怎样的创新形态去引领业界，改变世界。他用一生去追求的创新与完美，极致与体验，展现在他所创造的每一个工业品上，体现在每一个细节中。人们本不知道他们需要什么，直到你把产品展现在他们面前。抛开苹果，乔布斯还是一个偏执的嬉皮士，尽管他也有他那不那么完美的人生。
+
+
+他一直在科技与人文的十字路口
+
+Thank you Steve!

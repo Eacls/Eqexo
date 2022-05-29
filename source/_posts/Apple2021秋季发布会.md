@@ -1,0 +1,36 @@
+---
+title: Apple2021秋季发布会
+date: 2021-9-15
+updated: 2021-9-15
+tags: 
+  - 苹果
+  - 发布会
+categories: 科技前沿
+top_img: http://imageproxy.chaoxing.com/0x0,q15,jpeg,sX-LHKtBgq3tJFodl1tdJnqHTkD23Jpxz8ZtiygF9n3w/https://p.ananas.chaoxing.com/star3/origin/a629e51fdc53bbab8f2cafddd31917f8.png
+cover: https://preview.cloud.189.cn/image/imageAction?param=B5EF1E1696FA6A26581BE60BEAED8B95D4885B018BDA0D182AF781720490829EA17F5B40628B38BF48B261FECE12A7F2BD41C43F4CB1FF8C1D54FABF830ED33A53AC92398C0B8A189618793E4833092D7C52B4508CB8C1A200A560EE58BC0875F569AA8C7871E14B8DFF12161552B3BB
+abbrlink: 30070
+comments:
+aside: false
+description: 简评苹果iPhone13系/iPad mini6发布会
+---
+
+
+
+  今早补了一下苹果于凌晨的发布会，整体很平常，一如既往的挤牙膏。
+  iPhone13改动在于传感器面积增大换了摄像头的排列以及a15和增大的电池。pro和promax上了ltpo高刷。全系都去除了64g，应该说是“终  于”，iPhone在2021年去掉了64g，最高为1tb。
+  这次pro中就抢手的肯定就是官方名为远峰蓝的新配色，相较于iPhone12聚丙烯的那种深蓝好看不少。
+  
+  ![ ](https://preview.cloud.189.cn/image/imageAction?param=03CD0D015FD72A4159A1D758A11B42180EEA5D101FFD126592CA7F1F4B0B38DA72C488FBEE890E5C2BD6D9F284FDA17DD1E622D6757985325FD0163316CABFB40C3B869C300D6469DBD2EA260044AAD378DC8DD0655E25B105C2858C286D660C58F2EBCAC610BBEDDC5CB760F07695BA)
+
+  这次再次增强了苹果的环保理念，Phone 13 旨在最大限度地减少对环境的影响，包括使用经过回收塑料瓶制作的天线（行业首创），并且还在 MagSafe 磁铁、主板的焊材中、电池单元、主板电镀以及前置摄像头和后置摄像头的电线中使用 100% 回收金属。
+  之前一直都有声音说苹果会在13系列中去掉mini，但这次竟然保留了，小屏是伪需求吗？对于一部分人来说，小屏无所谓，其实还是只在意价格。当然还有一部分人是真的热忱于小屏。我个人去线下店观摩过iPhone12mini，对于6.39英寸屏幕用惯了的我，mini抓起来第一感觉就像个玩具，如果日常使用不觉得体验会怎么好。
+
+  ![iPhone12mini切实体验](https://preview.cloud.189.cn/image/imageAction?param=40D6ECFD697896DDE784E92061F19DD4EE9F165845E7FDE2748EE1208F4AA1024264BABE07DEE0C9CCDBEB2B028CF8904D2EFF02E6AAC9CA6BAEE6A4A911B9712E00A42A9C2B994E3B224A8FC028156045FE6C0819923561EEA8C15EAFC63C75D573FF7E0B631B6079F7208EB5E87580)
+
+  对于网络上“8000元档的机器才上高刷”，我依旧保持我的观点：不能说苹果完全没有因为想销售pro而13无高刷，但主要的原因还是因为电池。体验永远大于配置，苹果的一系列组成的生态，iPhone的切实感受，完全不是参数能衡量的。
+  iPad mini这次上了a15，外观也有大变，但不得不说库克精准刀法仅有64g与256g两个版本。
+  apple watch这次没有和外界预料的一样，会变为直角边框。正面边框变得窄了不少。
+  最后便是价格，iPhone13系列相较于去年12系列降了些，国行降了，美行也降了。这应该能说明不仅是汇率问题，iPhone这次整体在降价。
+  13香吗？相较于原来，如果不看升级幅度那还是挺香的。
+  
+

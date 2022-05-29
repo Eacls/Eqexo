@@ -1,0 +1,217 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Blog by Eacls
+subtitle: '时格博客'
+description: '以傲慢与偏执回敬傲慢与偏见'
+keywords: 
+author: 时格
+language: zh-CN
+timezone: ''
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: https://www.eacls.top
+root: /
+permalink: posts/:abbrlink/
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+  - "ZONE/**"
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: butterfly
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+
+deploy:
+  type: git
+  repository:  https://github.com/Eacls/ealcs.github.io.git
+  branch:  main
+
+
+# artitalk see https://artitalk.js.org/
+# hexo-butterfly-artitalk-pro
+# see https://akilar.top/posts/f1004b1d/
+artitalk:
+  enable:
+    card: true # 侧边栏开关
+    page: true #页面开关
+  # 侧栏相关配置项
+  priority: 3 #过滤器优先权
+  enable_page: '/' # 应用页面
+  layout: # 挂载容器类型
+    type: class
+    name: sticky_layout
+    index: 0
+  # 页面相关配置项
+  path: artitalk
+  front_matter:
+    title: 说说
+    aside: false
+    comments: false
+    top_img: https://preview.cloud.189.cn/image/imageAction?param=D0FE714065CDA799DDDE7646B157A51BA6B67CB3B3F8D434320947AF855F62AF301A00372B648900ACE1CDF14C5B81EFD60F91E3D0ECEE9ACDF906E556962532CA66953E6A47BD3FD36D5492E53ADD11772500DF92D4F71D9685481B77A48706A72B5225612EF2573B73D8E6173C9F20
+  # 公共配置项
+  appId: CiLNWFKa6zGX3QJnYVbefWS3-MdYXbMMI
+  appKey: IYQNdLCuouIezCScJx826OGr
+  exclude:
+    - /artitalk/
+    - /posts/ #需要abbrlink插件支持
+  js:  https://npm.elemecdn.com/artitalk
+  card_css: https://npm.elemecdn.com/hexo-butterfly-artitalk-pro/lib/card.css
+  card_visual_js: https://npm.elemecdn.com/hexo-butterfly-artitalk-pro/lib/card_visual.js
+  option:
+    serverURL: https://CiLNWFKa.api.lncldglobal.com #将此处的********替换为你的appId前八位
+    lang: zh
+    pageSize: 1
+    color1: '#36648B'
+    color2: '#36648B'
+    atEmoji: {
+      'Mafumafu1':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749454.png',
+      'Mafumafu2':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749455.png'}
+
+magnet:
+  enable: true
+  priority: 1
+  enable_page: /
+  type: categories
+  devide: 2
+  display:
+    - name: 科技前沿
+      display_name: 科技前沿
+      icon: 💻
+    - name: 生活随评
+      display_name: 生活随评
+      icon: ☕
+    - name: 实用教程
+      display_name: 实用教程
+      icon: 💎
+    - name: 深度好文
+      display_name: 深度好文
+      icon: 🎩
+  color_setting:
+    text_color: black
+    text_hover_color: "#F0FFFF"
+    background_color: white
+    background_hover_color: "#F0FFFF"
+  layout:
+    type: id
+    name: recent-posts
+    index: 0
+  temple_html: '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet">${temple_html_item}</div></div>'
+  plus_style: ""
+
+  # abbrlink config
+abbrlink:
+  alg: crc32      #support crc16(default) and crc32
+  rep: hex        #support dec(default) and hex
+  drafts: true   #(true)Process draft,(false)Do not process draft. false(default) 
+  # Generate categories from directory-tree
+  # depth: the max_depth of directory-tree you want to generate, should > 0
+  auto_category:
+     enable: true  #true(default)
+     depth:        #3(default)
+  auto_title: false #enable auto title, it can auto fill the title by path
+  auto_date: false #enable auto date, it can auto fill the date by time today
+  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.
+
+# electric_clock
+# see https://akilar.top/posts/4e39cf4a/
+electric_clock:
+  enable: true # 开关
+  priority: 1 #过滤器优先权
+  enable_page: '/' # 应用页面
+  exclude:
+    # - /posts/
+    # - /about/
+  layout: # 挂载容器类型
+    type: class
+    name: sticky_layout
+    index: 0
+  loading: https://unpkg.zhimg.com/hexo-butterfly-clock/lib/loading.gif #加载动画自定义
+  clock_css: https://unpkg.zhimg.com/hexo-butterfly-clock/lib/clock.min.css
+  clock_js: https://unpkg.zhimg.com/hexo-butterfly-clock/lib/clock.min.js
+  ip_api: https://pv.sohu.com/cityjson?ie=utf-8
+
+
+search:
+  path: search.xml
+  field: all
+  content: true
+  #template: ./search.xml
