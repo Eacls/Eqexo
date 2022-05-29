@@ -29,7 +29,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: 安装 Hexo CI
-        run: 
+        run: |
+          export TZ='Asia/Shanghai'
           npm install hexo-cli -g
 
       - name: 缓存
@@ -41,11 +42,11 @@ jobs:
 
       - name: 安装插件
         if: steps.cache-dependencies.outputs.cache-hit != 'true'
-        run: 
+        run: |
           npm install
 
       - name: 部署博客
-        run: 
+        run: |
           hexo clean && hexo g
           cd ./public
           git init
