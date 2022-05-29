@@ -1,0 +1,35 @@
+/*GitHub开源圆角*/
+#card-info-btn {
+    border-radius: 7px;
+    overflow: hidden;
+  }
+
+/* 右侧小按钮圆角 */
+#rightside>div>button,#to_comment {
+    margin-right: 4px;
+    border-radius: 7px;
+  }
+
+/*侧边滑动颜色*/
+:root {
+    --btn-bg: #3a87b9;
+  }
+
+/*底部切换按钮*/
+.layout>.recent-posts .pagination>* {
+    display: inline-block;
+    margin: 0 6px;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+  }
+  
+/*底部圆角*/
+#pagination .page-number.current {
+    border-radius: 7px;
+  }
+
+/*首页文章卡片高度*/
+#recent-posts > .recent-post-item {
+    height: 18em;
+  }
