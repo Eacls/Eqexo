@@ -102,7 +102,7 @@ theme: butterfly
 
 deploy:
   type: git
-  repository:  https://github.com/Eacls/ealcs.github.io.git
+  repository: git@github.com:Eacls/ealcs.github.io.git
   branch:  main
 
 
