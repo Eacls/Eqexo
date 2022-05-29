@@ -31,6 +31,12 @@ jobs:
         run: |
           npm install
 
+      # 初始化 Git 配置
+      - name: Setup Git
+        run: |
+          git config --global user.name $GIT_USER
+          git config --global user.email $GIT_EMAIL
+
       # 生成并部署 `npx hexo clean && npx hexo g -d` or `npm run deploy`
       - name: Deploy
         run: |
