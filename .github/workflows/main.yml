@@ -1,4 +1,4 @@
-name: Hexo Deploy
+name: 自动部署 Hexo
 
 # 只监听 source 分支的改动
 on:
@@ -11,36 +11,47 @@ env:
   GIT_USER: eacls
   GIT_EMAIL: eacls@eacls.top
 
+
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [13]
 
     steps:
-      # 获取博客源码和主题
-      - name: Checkout
-        uses: actions/checkout@v2
+      - name: 开始运行
+        uses: actions/checkout@v1
 
-      # 这里用的是 Node.js 13.x，14.x 生成 Hexo 静态页面会有问题
-      - name: Set up Node.js
+      - name: 设置 Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
-          node-version: '13'
+          node-version: ${{ matrix.node-version }}
 
-      # 安装依赖
-      - name: Install Dependencies
-        run: |
+      - name: 安装 Hexo CI
+        run: 
+          export TZ='Asia/Shanghai'
+          npm install hexo-cli -g
+
+      - name: 缓存
+        uses: actions/cache@v1
+        id: cache-dependencies
+        with:
+          path: node_modules
+          key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
+
+      - name: 安装插件
+        if: steps.cache-dependencies.outputs.cache-hit != 'true'
+        run: 
           npm install
 
-      # 初始化 Git 配置
-      - name: Setup Git
-        run: |
+      - name: 部署博客
+        run: 
+          hexo clean && hexo g
+          cd ./public
+          git init
           git config --global user.name $GIT_USER
           git config --global user.email $GIT_EMAIL
-
-      # 生成并部署 `npx hexo clean && npx hexo g -d` or `npm run deploy`
-      - name: Deploy
-        run: |
-          rm -rf .deploy_git
-          npx hexo clean && npx hexo g
-          npx hexo d
-          npx hexo clean
+          git add .
+          git commit -m "Update"
+          git push --force --quiet "https://${{secrets.GH_TOKEN}}@eacls.github.io.git" master:main
