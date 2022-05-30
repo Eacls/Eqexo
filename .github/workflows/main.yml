@@ -8,8 +8,8 @@ on:
 
 # 自定义环境变量
 env:
-  GIT_USER: eacls
-  GIT_EMAIL: eacls@eacls.top
+  GIT_USER: Eacls
+  GIT_EMAIL: binkezhang719@gmail.com
 
 
 jobs:
