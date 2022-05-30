@@ -19,9 +19,9 @@
   class_desc: 朋友一生一起走
   link_list:
     - name: 梦繁星
-      link: https://www.emoao.com/
-      avatar: https://www.emoao.com/images/img/avatar.webp
-      descr: 不过是大梦一场空！
+      link: https://blog.emoao.com/
+      avatar: https://blog.emoao.com/static/img/avatar.webp
+      descr: 允你一世繁星，许你一世星辰！
     - name: Kaiboshi
       link: https://kaiboshi.gitee.io/
       avatar: https://cdn.jsdelivr.net/gh/kaiboshi/kaiboshi.github.io/medias/logo66.png
