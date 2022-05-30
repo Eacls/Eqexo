@@ -9,12 +9,14 @@
 menu:
   # 主页: / || fas fa-home
   归档: /archives/ || fas fa-archive
-  说说: /artitalk/ || fas fa-coffee faa-tada
   # 分类: /categories/ || 
   # 清单||fas fa-list:
     # 音乐: /music/ || 
     # 电影: /movies/ || 
   导航: /link/ || fas fa-link
+  短文|| fas fa-coffee faa-tada:
+    语录: /yulu/ || fa-fw fas fa-user-circle faa-spin
+    简评: /jianping/ || fa-fw fas fa-compass
   关于|| fas fa-heart:
     隐私: /about/ || fas fa-book
     留言: /messageboard/ || fas fa-comment-dots
