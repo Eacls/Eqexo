@@ -850,8 +850,8 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-  bottom:
-
+  bottom: 
+   - <script src="av-min.js"></script>
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
