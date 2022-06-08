@@ -112,7 +112,7 @@ deploy:
 artitalk:
   enable:
     card: true # 侧边栏开关
-    page: true #页面开关
+    page: false #页面开关
   # 侧栏相关配置项
   priority: 3 #过滤器优先权
   enable_page: '/' # 应用页面
