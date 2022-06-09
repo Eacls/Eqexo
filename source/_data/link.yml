@@ -24,23 +24,23 @@
       descr: 允你一世繁星，许你一世星辰！
     - name: Kaiboshi
       link: https://kaiboshi.gitee.io/
-      avatar: https://cdn.jsdelivr.net/gh/kaiboshi/kaiboshi.github.io/medias/logo66.png
+      avatar: http://imageproxy.chaoxing.com/0x0,q15,jpeg,s8-vtUhl41wgQOpFfrl68JMB_BRlBOw3N8XoIe1ct2PM/https://p.ananas.chaoxing.com/star3/origin/94f37c91ccbf26c5879e6a519980fc62.png
       descr: 做一个有梦想的咸鱼
-    - name: Mhist的个人博客
-      link: http://mhist.github.io/
-      avatar: https://cdn.jsdelivr.net/gh/mhist/hexoImage@main/img/20210914112616catAvatar.png
-      descr: 日常笔记  技术博客
+    - name: Black Flies
+      link: https://www.yyyzyyyz.cn/
+      avatar: https://npm.elemecdn.com/imgscdn/img/202111191951780.JPG
+      descr: When nothing goes right,just go left.
     - name: iMaeGoo's Blog
       link: https://www.imaegoo.com/
       avatar: https://www.imaegoo.com/images/avatar.jpg
       descr: 虹墨空间站
-    - name: Kindle deepのBlog
-      link: https://kindle-deep.github.io
-      avatar: https://cdn.jsdelivr.net/gh/Kindle-deep/image@main/RoundCorner.png
-      descr: Nothing is impossible to a willing heart.
+    - name: 贰猹的小窝
+      link: https://noionion.top/
+      avatar: https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg
+      descr: 用这生命中的每一秒，给自己一个不后悔的未来
     - name: CC的部落格
       link: https://blog.ccknbc.cc
-      avatar: https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/logo.png
+      avatar: https://gcore.jsdelivr.net/gh/ccknbc-backup/cdn@latest/logo/logo.png
       descr: CC康纳百川的小窝，与你分享二三事
     - name: Heo
       link: https://blog.zhheo.com/
@@ -48,7 +48,7 @@
       descr: 爱折腾的设计师 
     - name: Akilarの糖果屋
       link: https://akilar.top/
-      avatar: https://unpkg.zhimg.com/akilar-candyassets/image/siteicon/favicon.png
+      avatar: https://npm.elemecdn.com/akilar-candyassets/image/siteicon/favicon.png
       descr: 期待您的光临！
     - name: 小冰博客
       link: https://zfe.one
