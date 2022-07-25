@@ -134,9 +134,9 @@ artitalk:
   exclude:
     - /artitalk/
     - /posts/ #需要abbrlink插件支持
-  js:  https://npm.elemecdn.com/artitalk
-  card_css: https://npm.elemecdn.com/hexo-butterfly-artitalk-pro/lib/card.css
-  card_visual_js: https://npm.elemecdn.com/hexo-butterfly-artitalk-pro/lib/card_visual.js
+  js:  https://adn.arcitcgn.cn/npm/artitalk
+  card_css: https://adn.arcitcgn.cn/npm/hexo-butterfly-artitalk-pro/lib/card.css
+  card_visual_js: https://adn.arcitcgn.cn/npm/hexo-butterfly-artitalk-pro/lib/card_visual.js
   option:
     serverURL: https://CiLNWFKa.api.lncldglobal.com #将此处的********替换为你的appId前八位
     lang: zh
@@ -205,9 +205,9 @@ electric_clock:
     type: class
     name: sticky_layout
     index: 0
-  loading: https://npm.elemecdn.com/hexo-butterfly-clock/lib/loading.gif #加载动画自定义
-  clock_css: https://npm.elemecdn.com/hexo-butterfly-clock/lib/clock.min.css
-  clock_js: https://npm.elemecdn.com/hexo-butterfly-clock/lib/clock.min.js
+  loading: https://adn.arcitcgn.cn/npm/hexo-butterfly-clock/lib/loading.gif #加载动画自定义
+  clock_css: https://adn.arcitcgn.cn/npm/hexo-butterfly-clock/lib/clock.min.css
+  clock_js: https://adn.arcitcgn.cn/npm/hexo-butterfly-clock/lib/clock.min.js
   ip_api: https://pv.sohu.com/cityjson?ie=utf-8
 
 

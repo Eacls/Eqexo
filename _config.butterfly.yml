@@ -859,84 +859,84 @@ inject:
 CDN:
   # main
   main_css: /css/index.css
-  jquery: https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js
+  jquery: https://adn.arcitcgn.cn/npm/jquery@latest/dist/jquery.min.js
   main: /js/main.js
   utils: /js/utils.js
 
   # pjax
-  pjax: https://npm.elemecdn.com/pjax/pjax.min.js
+  pjax: https://adn.arcitcgn.cn/npm/pjax/pjax.min.js
 
   # comments
-  gitalk: https://npm.elemecdn.com/gitalk@latest/dist/gitalk.min.js
-  gitalk_css: https://npm.elemecdn.com/gitalk/dist/gitalk.min.css
-  valine: https://npm.elemecdn.com/valine/dist/Valine.min.js
-  disqusjs: https://npm.elemecdn.com/disqusjs@1/dist/disqus.js
-  disqusjs_css: https://npm.elemecdn.com/disqusjs@1/dist/disqusjs.css
+  gitalk: https://adn.arcitcgn.cn/npm/gitalk@latest/dist/gitalk.min.js
+  gitalk_css: https://adn.arcitcgn.cn/npm/gitalk/dist/gitalk.min.css
+  valine: https://adn.arcitcgn.cn/npm/valine/dist/Valine.min.js
+  disqusjs: https://adn.arcitcgn.cn/npm/disqusjs@1/dist/disqus.js
+  disqusjs_css: https://adn.arcitcgn.cn/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
-  twikoo: https://npm.elemecdn.com/twikoo@1.4.1/dist/twikoo.all.min.js
-  waline: https://npm.elemecdn.com/@waline/client/dist/Waline.min.js
+  twikoo: https://adn.arcitcgn.cn/npm/twikoo@1.4.1/dist/twikoo.all.min.js
+  waline: https://adn.arcitcgn.cn/npm/@waline/client/dist/Waline.min.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
-  sharejs: https://npm.elemecdn.com/social-share.js/dist/js/social-share.min.js
-  sharejs_css: https://npm.elemecdn.com/social-share.js/dist/css/share.min.css
+  sharejs: https://adn.arcitcgn.cn/npm/social-share.js/dist/js/social-share.min.js
+  sharejs_css: https://adn.arcitcgn.cn/npm/social-share.js/dist/css/share.min.css
 
   # search
   local_search: /js/search/local-search.js
   algolia_js: /js/search/algolia.js
-  algolia_search: https://npm.elemecdn.com/instantsearch.js@2.10.5/dist/instantsearch.min.js
-  algolia_search_css: https://npm.elemecdn.com/instantsearch.js@2.10.5/dist/instantsearch.min.css
+  algolia_search: https://adn.arcitcgn.cn/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js
+  algolia_search_css: https://adn.arcitcgn.cn/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css
 
   # math
-  mathjax: https://npm.elemecdn.com/mathjax@3/es5/tex-mml-chtml.js
-  katex: https://npm.elemecdn.com/katex@latest/dist/katex.min.css
-  katex_copytex: https://npm.elemecdn.com/katex@latest/dist/contrib/copy-tex.min.js
-  katex_copytex_css: https://npm.elemecdn.com/katex@latest/dist/contrib/copy-tex.css
-  mermaid: https://npm.elemecdn.com/mermaid/dist/mermaid.min.js
+  mathjax: https://adn.arcitcgn.cn/npm/mathjax@3/es5/tex-mml-chtml.js
+  katex: https://adn.arcitcgn.cn/npm/katex@latest/dist/katex.min.css
+  katex_copytex: https://adn.arcitcgn.cn/npm/katex@latest/dist/contrib/copy-tex.min.js
+  katex_copytex_css: https://adn.arcitcgn.cn/npm/katex@latest/dist/contrib/copy-tex.css
+  mermaid: https://adn.arcitcgn.cn/npm/mermaid/dist/mermaid.min.js
 
   # count
   busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 
   # background effect
-  canvas_ribbon: https://npm.elemecdn.com/butterfly-extsrc@1/dist/canvas-ribbon.min.js
-  canvas_fluttering_ribbon: https://npm.elemecdn.com/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js
-  canvas_nest: https://npm.elemecdn.com/butterfly-extsrc@1/dist/canvas-nest.min.js
+  canvas_ribbon: https://adn.arcitcgn.cn/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js
+  canvas_fluttering_ribbon: https://adn.arcitcgn.cn/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js
+  canvas_nest: https://adn.arcitcgn.cn/npm/butterfly-extsrc@1/dist/canvas-nest.min.js
 
-  lazyload: https://npm.elemecdn.com/vanilla-lazyload/dist/lazyload.iife.min.js
-  typed: https://npm.elemecdn.com/typed.js/lib/typed.min.js
-  pangu: https://npm.elemecdn.com/pangu/dist/browser/pangu.min.js
+  lazyload: https://adn.arcitcgn.cn/npm/vanilla-lazyload/dist/lazyload.iife.min.js
+  typed: https://adn.arcitcgn.cn/npm/typed.js/lib/typed.min.js
+  pangu: https://adn.arcitcgn.cn/npm/pangu/dist/browser/pangu.min.js
 
   # photo
-  fancybox_css: https://npm.elemecdn.com/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
-  fancybox: https://npm.elemecdn.com/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
-  medium_zoom: https://npm.elemecdn.com/medium-zoom/dist/medium-zoom.min.js
+  fancybox_css: https://adn.arcitcgn.cn/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
+  fancybox: https://adn.arcitcgn.cn/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
+  medium_zoom: https://adn.arcitcgn.cn/npm/medium-zoom/dist/medium-zoom.min.js
 
   # snackbar
-  snackbar_css: https://npm.elemecdn.com/node-snackbar/dist/snackbar.min.css
-  snackbar: https://npm.elemecdn.com/node-snackbar/dist/snackbar.min.js
+  snackbar_css: https://adn.arcitcgn.cn/npm/node-snackbar/dist/snackbar.min.css
+  snackbar: https://adn.arcitcgn.cn/npm/node-snackbar/dist/snackbar.min.js
 
   # effect
-  activate_power_mode: https://npm.elemecdn.com/butterfly-extsrc@1/dist/activate-power-mode.min.js
-  fireworks: https://npm.elemecdn.com/butterfly-extsrc@1/dist/fireworks.min.js
-  click_heart: https://npm.elemecdn.com/butterfly-extsrc@1/dist/click-heart.min.js
-  ClickShowText: https://npm.elemecdn.com/butterfly-extsrc@1/dist/click-show-text.min.js
+  activate_power_mode: https://adn.arcitcgn.cn/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js
+  fireworks: https://adn.arcitcgn.cn/npm/butterfly-extsrc@1/dist/fireworks.min.js
+  click_heart: https://adn.arcitcgn.cn/npm/butterfly-extsrc@1/dist/click-heart.min.js
+  ClickShowText: https://adn.arcitcgn.cn/npm/butterfly-extsrc@1/dist/click-show-text.min.js
 
   # fontawesome
-  fontawesome: https://npm.elemecdn.com/@fortawesome/fontawesome-free/css/all.min.css
+  fontawesome: https://adn.arcitcgn.cn/npm/@fortawesome/fontawesome-free/css/all.min.css
 
   # Conversion between Traditional and Simplified Chinese
   translate: /js/tw_cn.js
 
   # justifiedGallery
-  justifiedGallery_js: https://npm.elemecdn.com/justifiedGallery/dist/js/jquery.justifiedGallery.min.js
-  justifiedGallery_css: https://npm.elemecdn.com/justifiedGallery/dist/css/justifiedGallery.min.css
+  justifiedGallery_js: https://adn.arcitcgn.cn/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js
+  justifiedGallery_css: https://adn.arcitcgn.cn/npm/justifiedGallery/dist/css/justifiedGallery.min.css
 
   # aplayer
-  aplayer_css: https://npm.elemecdn.com/aplayer/dist/APlayer.min.css
-  aplayer_js: https://npm.elemecdn.com/aplayer/dist/APlayer.min.js
+  aplayer_css: https://adn.arcitcgn.cn/npm/aplayer/dist/APlayer.min.css
+  aplayer_js: https://adn.arcitcgn.cn/npm/aplayer/dist/APlayer.min.js
   meting_js: https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
 
   # Prism.js
-  prismjs_js: https://npm.elemecdn.com/prismjs/prism.min.js
-  prismjs_lineNumber_js: https://npm.elemecdn.com/prismjs/plugins/line-numbers/prism-line-numbers.min.js
-  prismjs_autoloader: https://npm.elemecdn.com/prismjs/plugins/autoloader/prism-autoloader.min.js
+  prismjs_js: https://adn.arcitcgn.cn/npm/prismjs/prism.min.js
+  prismjs_lineNumber_js: https://adn.arcitcgn.cn/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
+  prismjs_autoloader: https://adn.arcitcgn.cn/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
