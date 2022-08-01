@@ -605,8 +605,8 @@ beautify:
 font:
   global-font-size: 15px
   code-font-size:
-  font-family: love
-  code-font-family: love
+  font-family: eapple
+  code-font-family: eapple
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
@@ -852,6 +852,7 @@ inject:
   head:
   bottom:
    - <script src="/js/av-min.js"></script>
+   - <script src="/js/artitalk.js"></script>
   
 # CDN
 # Don't modify the following settings unless you know how they work
