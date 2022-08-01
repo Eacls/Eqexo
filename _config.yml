@@ -165,7 +165,7 @@ electric_clock:
     name: sticky_layout
     index: 0
   loading: https://unpkg.com/hexo-butterfly-clock/lib/loading.gif #加载动画自定义
-  clock_css: https://unpkg.com/hexo-butterfly-clock/lib/clock.min.css
+  clock_css: https://cdn.jsdelivr.net/gh/Zfour/hexo-electric-clock@1.0.3/clock.css
   clock_js: https://unpkg.com/hexo-butterfly-clock/lib/clock.min.js
   ip_api: https://pv.sohu.com/cityjson?ie=utf-8
 
