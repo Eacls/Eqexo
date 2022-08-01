@@ -418,7 +418,7 @@ footer:
   owner:
     enable: true
     since: 2021
-  custom_text: Copyright Eacls Inc. | 本站将保留一切权利 | <a href="https://icp.gov.moe/?keyword=20210171" target="_blank">萌ICP备20210171号</a>
+  custom_text: Copyright Eacls Shige | 本站将保留一切权利 | <a href="https://icp.gov.moe/?keyword=20210171" target="_blank">萌ICP备20210171号</a>
   copyright: true # Copyright of theme and framework
 
 # Analysis
