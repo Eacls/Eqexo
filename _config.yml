@@ -133,9 +133,9 @@ artitalk:
   exclude:
     - /artitalk/
     - /posts/ #需要abbrlink插件支持
-  js:  https://www.eacls.top/js/artitalk.js
-  card_css: https://unpkg.com/hexo-butterfly-artitalk-pro@1.0.5/lib/card.css
-  card_visual_js: https://www.eacls.top/js/card_visual.js
+  js: https://npm.elemecdn.com/artitalk
+  card_css: https://npm.elemecdn.com/hexo-butterfly-artitalk-pro/lib/card.css
+  card_visual_js: https://npm.elemecdn.com/hexo-butterfly-artitalk-pro/lib/card_visual.js
   option:
     lang: zh
     pageSize: 1
