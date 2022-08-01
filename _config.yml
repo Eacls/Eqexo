@@ -133,9 +133,9 @@ artitalk:
   exclude:
     - /artitalk/
     - /posts/ #需要abbrlink插件支持
-  js:  /js/artitalk.js
-  card_css: /css/_custom/card.css
-  card_visual_js: /js/card_visual.js
+  js:  https://www.eacls.top/js/artitalk.js
+  card_css: https://www.eacls.top/css/_custom/card.css
+  card_visual_js: https://www.eacls.top/js/card_visual.js
   option:
     serverURL: https://CiLNWFKa.api.lncldglobal.com #将此处的********替换为你的appId前八位
     lang: zh
