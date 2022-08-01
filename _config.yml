@@ -134,7 +134,7 @@ artitalk:
     - /artitalk/
     - /posts/ #需要abbrlink插件支持
   js:  https://www.eacls.top/js/artitalk.js
-  card_css: https://www.eacls.top/css/_custom/card.css
+  card_css: https://unpkg.com/hexo-butterfly-artitalk-pro@1.0.5/lib/card.css
   card_visual_js: https://www.eacls.top/js/card_visual.js
   option:
     serverURL: https://CiLNWFKa.api.lncldglobal.com #将此处的********替换为你的appId前八位

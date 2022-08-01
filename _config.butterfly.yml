@@ -852,8 +852,6 @@ inject:
   head:
   bottom:
    - <script src="/js/av-min.js"></script>
-   - <script src="/js/artitalk.js"></script>
-   - <script src="/js/card_visual.js"></script>
   
 # CDN
 # Don't modify the following settings unless you know how they work
