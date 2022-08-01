@@ -859,84 +859,84 @@ inject:
 CDN:
   # main
   main_css: /css/index.css
-  jquery: https://adn.arcitcgn.cn/npm/jquery@latest/dist/jquery.min.js
+  jquery: https://unpkg.com/jquery@latest/dist/jquery.min.js
   main: /js/main.js
   utils: /js/utils.js
 
   # pjax
-  pjax: https://adn.arcitcgn.cn/npm/pjax/pjax.min.js
+  pjax: https://unpkg.com/pjax/pjax.min.js
 
   # comments
-  gitalk: https://adn.arcitcgn.cn/npm/gitalk@latest/dist/gitalk.min.js
-  gitalk_css: https://adn.arcitcgn.cn/npm/gitalk/dist/gitalk.min.css
-  valine: https://adn.arcitcgn.cn/npm/valine/dist/Valine.min.js
-  disqusjs: https://adn.arcitcgn.cn/npm/disqusjs@1/dist/disqus.js
-  disqusjs_css: https://adn.arcitcgn.cn/npm/disqusjs@1/dist/disqusjs.css
+  gitalk: https://unpkg.com/gitalk@latest/dist/gitalk.min.js
+  gitalk_css: https://unpkg.com/gitalk/dist/gitalk.min.css
+  valine: https://unpkg.com/valine/dist/Valine.min.js
+  disqusjs: https://unpkg.com/disqusjs@1/dist/disqus.js
+  disqusjs_css: https://unpkg.com/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
-  twikoo: https://adn.arcitcgn.cn/npm/twikoo@1.4.1/dist/twikoo.all.min.js
-  waline: https://adn.arcitcgn.cn/npm/@waline/client/dist/Waline.min.js
+  twikoo: https://unpkg.com/twikoo@1.4.1/dist/twikoo.all.min.js
+  waline: https://unpkg.com/@waline/client/dist/Waline.min.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
-  sharejs: https://adn.arcitcgn.cn/npm/social-share.js/dist/js/social-share.min.js
-  sharejs_css: https://adn.arcitcgn.cn/npm/social-share.js/dist/css/share.min.css
+  sharejs: https://unpkg.com/social-share.js/dist/js/social-share.min.js
+  sharejs_css: https://unpkg.com/social-share.js/dist/css/share.min.css
 
   # search
   local_search: /js/search/local-search.js
   algolia_js: /js/search/algolia.js
-  algolia_search: https://adn.arcitcgn.cn/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js
-  algolia_search_css: https://adn.arcitcgn.cn/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css
+  algolia_search: https://unpkg.com/instantsearch.js@2.10.5/dist/instantsearch.min.js
+  algolia_search_css: https://unpkg.com/instantsearch.js@2.10.5/dist/instantsearch.min.css
 
   # math
-  mathjax: https://adn.arcitcgn.cn/npm/mathjax@3/es5/tex-mml-chtml.js
-  katex: https://adn.arcitcgn.cn/npm/katex@latest/dist/katex.min.css
-  katex_copytex: https://adn.arcitcgn.cn/npm/katex@latest/dist/contrib/copy-tex.min.js
-  katex_copytex_css: https://adn.arcitcgn.cn/npm/katex@latest/dist/contrib/copy-tex.css
-  mermaid: https://adn.arcitcgn.cn/npm/mermaid/dist/mermaid.min.js
+  mathjax: https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  katex: https://unpkg.com/katex@latest/dist/katex.min.css
+  katex_copytex: https://unpkg.com/katex@latest/dist/contrib/copy-tex.min.js
+  katex_copytex_css: https://unpkg.com/katex@latest/dist/contrib/copy-tex.css
+  mermaid: https://unpkg.com/mermaid/dist/mermaid.min.js
 
   # count
   busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 
   # background effect
-  canvas_ribbon: https://adn.arcitcgn.cn/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js
-  canvas_fluttering_ribbon: https://adn.arcitcgn.cn/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js
-  canvas_nest: https://adn.arcitcgn.cn/npm/butterfly-extsrc@1/dist/canvas-nest.min.js
+  canvas_ribbon: https://unpkg.com/butterfly-extsrc@1/dist/canvas-ribbon.min.js
+  canvas_fluttering_ribbon: https://unpkg.com/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js
+  canvas_nest: https://unpkg.com/butterfly-extsrc@1/dist/canvas-nest.min.js
 
-  lazyload: https://adn.arcitcgn.cn/npm/vanilla-lazyload/dist/lazyload.iife.min.js
-  typed: https://adn.arcitcgn.cn/npm/typed.js/lib/typed.min.js
-  pangu: https://adn.arcitcgn.cn/npm/pangu/dist/browser/pangu.min.js
+  lazyload: https://unpkg.com/vanilla-lazyload/dist/lazyload.iife.min.js
+  typed: https://unpkg.com/typed.js/lib/typed.min.js
+  pangu: https://unpkg.com/pangu/dist/browser/pangu.min.js
 
   # photo
-  fancybox_css: https://adn.arcitcgn.cn/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
-  fancybox: https://adn.arcitcgn.cn/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
-  medium_zoom: https://adn.arcitcgn.cn/npm/medium-zoom/dist/medium-zoom.min.js
+  fancybox_css: https://unpkg.com/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
+  fancybox: https://unpkg.com/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
+  medium_zoom: https://unpkg.com/medium-zoom/dist/medium-zoom.min.js
 
   # snackbar
-  snackbar_css: https://adn.arcitcgn.cn/npm/node-snackbar/dist/snackbar.min.css
-  snackbar: https://adn.arcitcgn.cn/npm/node-snackbar/dist/snackbar.min.js
+  snackbar_css: https://unpkg.com/node-snackbar/dist/snackbar.min.css
+  snackbar: https://unpkg.com/node-snackbar/dist/snackbar.min.js
 
   # effect
-  activate_power_mode: https://adn.arcitcgn.cn/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js
-  fireworks: https://adn.arcitcgn.cn/npm/butterfly-extsrc@1/dist/fireworks.min.js
-  click_heart: https://adn.arcitcgn.cn/npm/butterfly-extsrc@1/dist/click-heart.min.js
-  ClickShowText: https://adn.arcitcgn.cn/npm/butterfly-extsrc@1/dist/click-show-text.min.js
+  activate_power_mode: https://unpkg.com/butterfly-extsrc@1/dist/activate-power-mode.min.js
+  fireworks: https://unpkg.com/butterfly-extsrc@1/dist/fireworks.min.js
+  click_heart: https://unpkg.com/butterfly-extsrc@1/dist/click-heart.min.js
+  ClickShowText: https://unpkg.com/butterfly-extsrc@1/dist/click-show-text.min.js
 
   # fontawesome
-  fontawesome: https://adn.arcitcgn.cn/npm/@fortawesome/fontawesome-free/css/all.min.css
+  fontawesome: https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css
 
   # Conversion between Traditional and Simplified Chinese
   translate: /js/tw_cn.js
 
   # justifiedGallery
-  justifiedGallery_js: https://adn.arcitcgn.cn/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js
-  justifiedGallery_css: https://adn.arcitcgn.cn/npm/justifiedGallery/dist/css/justifiedGallery.min.css
+  justifiedGallery_js: https://unpkg.com/justifiedGallery/dist/js/jquery.justifiedGallery.min.js
+  justifiedGallery_css: https://unpkg.com/justifiedGallery/dist/css/justifiedGallery.min.css
 
   # aplayer
-  aplayer_css: https://adn.arcitcgn.cn/npm/aplayer/dist/APlayer.min.css
-  aplayer_js: https://adn.arcitcgn.cn/npm/aplayer/dist/APlayer.min.js
+  aplayer_css: https://unpkg.com/aplayer/dist/APlayer.min.css
+  aplayer_js: https://unpkg.com/aplayer/dist/APlayer.min.js
   meting_js: https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
 
   # Prism.js
-  prismjs_js: https://adn.arcitcgn.cn/npm/prismjs/prism.min.js
-  prismjs_lineNumber_js: https://adn.arcitcgn.cn/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
-  prismjs_autoloader: https://adn.arcitcgn.cn/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
+  prismjs_js: https://unpkg.com/prismjs/prism.min.js
+  prismjs_lineNumber_js: https://unpkg.com/prismjs/plugins/line-numbers/prism-line-numbers.min.js
+  prismjs_autoloader: https://unpkg.com/prismjs/plugins/autoloader/prism-autoloader.min.js
