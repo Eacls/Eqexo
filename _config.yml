@@ -106,47 +106,6 @@ deploy:
   repository: git@github.com:Eacls/ealcs.github.io.git
   branch:  main
 
-
-# artitalk see https://artitalk.js.org/
-# hexo-butterfly-artitalk-pro
-# see https://akilar.top/posts/f1004b1d/
-artitalk:
-  enable:
-    card: true # 侧边栏开关
-    page: false #页面开关
-  # 侧栏相关配置项
-  priority: 3 #过滤器优先权
-  enable_page: '/' # 应用页面
-  layout: # 挂载容器类型
-    type: class
-    name: sticky_layout
-    index: 0
-  # 页面相关配置项
-  path: artitalk
-  front_matter:
-    title: 说说
-    aside: false
-    comments: false
-    top_img: https://preview.cloud.189.cn/image/imageAction?param=D0FE714065CDA799DDDE7646B157A51BA6B67CB3B3F8D434320947AF855F62AF301A00372B648900ACE1CDF14C5B81EFD60F91E3D0ECEE9ACDF906E556962532CA66953E6A47BD3FD36D5492E53ADD11772500DF92D4F71D9685481B77A48706A72B5225612EF2573B73D8E6173C9F20
-  # 公共配置项
-  appId: CiLNWFKa6zGX3QJnYVbefWS3-MdYXbMMI
-  appKey: IYQNdLCuouIezCScJx826OGr
-  exclude:
-    - /artitalk/
-    - /posts/ #需要abbrlink插件支持
-  js:  https://unpkg.com/artitalk
-  card_css: https://unpkg.com/hexo-butterfly-artitalk-pro/lib/card.css
-  card_visual_js: https://unpkg.com/hexo-butterfly-artitalk-pro/lib/card_visual.js
-  option:
-    serverURL: https://CiLNWFKa.api.lncldglobal.com #将此处的********替换为你的appId前八位
-    lang: zh
-    pageSize: 1
-    color1: '#36648B'
-    color2: '#36648B'
-    atEmoji: {
-      'Mafumafu1':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749454.png',
-      'Mafumafu2':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749455.png'}
-
 magnet:
   enable: true
   priority: 1
