@@ -269,7 +269,6 @@ comments:
   use:
     # - livere
   - Twikoo
-  - Valine
   # - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
