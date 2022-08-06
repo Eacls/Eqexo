@@ -873,7 +873,7 @@ CDN:
   disqusjs: https://unpkg.com/disqusjs@1/dist/disqus.js
   disqusjs_css: https://unpkg.com/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
-  twikoo: https://unpkg.com/twikoo@1.4.1/dist/twikoo.all.min.js
+  twikoo: https://unpkg.com/twikoo@1.6.4/dist/twikoo.all.min.js
   waline: https://unpkg.com/@waline/client/dist/Waline.min.js
 
   # share
