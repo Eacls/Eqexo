@@ -40,7 +40,3 @@
   font-display: swap;
   src: url('/source/font/Misans.ttf') format("truetype");
 }
-
-body {
-  font-family: "PingFang SC", 'Misans';
-}
