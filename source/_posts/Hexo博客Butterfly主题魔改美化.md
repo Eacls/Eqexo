@@ -98,7 +98,7 @@ inject:
 npm i hexo-magnet --save
 ```
 详细
-[小冰教程贴](https://zfe.space/post/hexo-magnet.html)
+{% link 小冰教程贴,顶部磁吸分类,https://zfe.space/post/hexo-magnet.html %}
 <!-- endtab -->
 
 {% endtabs %}

@@ -86,3 +86,8 @@
 #aside-content #card-toc {
   right: -35px !important;
 }
+
+/*调宽页脚*/
+#footer-wrap {
+  padding: 3rem 2rem;
+}
