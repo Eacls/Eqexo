@@ -8,7 +8,7 @@ tags:
 - Hexo
 title: Butterfly主题魔改美化-贰
 top_img: https://preview.cloud.189.cn/image/imageAction?param=02752F480DE3A48DEAC3B84474EE6A7E91F2EB7096FE3CFB5031FDC056FDCE95B0B560538E0DCB9DAD42A71C219139B787A37FFB8C60EBFA98919414B62F5F36F1F3685FAC9C1DCF49D2CE751B24C75184A6B13D6929656F819BFC427F0DB54DD1C88F0B693DA221EDDC6EBB8AB0E661
-updated: '2022-08-07 21:40:18'
+updated: '2022-08-08 06:42:34'
 ---
 ## 前言
 
@@ -22,7 +22,7 @@ updated: '2022-08-07 21:40:18'
 
 ## 全局字体修改
 
-修改字体通常有两种方式：本地引入和外链引入。因为本地引入通常会非常拖慢速度，故本篇教程不在给本地引入的方法，如需可阅读  [字体修改-Ordis博客](https://imbhj.com/25c13146/)  。
+修改字体通常有两种方式：本地引入和外链引入。因为本地引入通常会非常拖慢速度，故本篇教程不在提供本地引入的方法，如需可阅读  [字体修改-Ordis博客](https://imbhj.com/25c13146/)  。
 外链引入在css文件内添加如下代码
 
 ```
@@ -145,7 +145,7 @@ font:
 
 {% tabs test4 %}
 
-<!-- tab  -->
+<!-- tab 预览  -->
 
 **![圆角](https://preview.cloud.189.cn/image/imageAction?param=DDFB53EACEA7D567AF6C46A41F62749CA61AE7ADE787FA303EBFDB34D8E8279FBE145EFC2D24A2E537425637ABF851DF7027FB6860A5A129877E4DD2B421330298B95476C4B5D1D8477F4B1656F99B59CB3FE8C1D1B34F73C0D074548B5D15E3340544A88E8698C61B8BAFF9C0D6B976)**
 
@@ -166,7 +166,7 @@ border-radius: 20px;
 
 ## 文章页目录美化
 
-如目录8图所示
+如目录7图所示
 
 ```
 /*文章页目录美化*/
@@ -186,6 +186,8 @@ border-radius: 20px;
 }
 ```
 
+
+
 ## 为什么这么调整
 
 <!-- Why do-->
@@ -193,3 +195,4 @@ border-radius: 20px;
 - **本篇美化方案优化了Web端的阅读体验，采用平铺的方式提高显示利用面积。**
 - **本篇美化方案提高了文字的粗度，提升了可读性**
 - **本篇美化方案加强了对市面上主流设备的适应度，改进了UI设计**
+
