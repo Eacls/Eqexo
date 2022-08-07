@@ -14,10 +14,10 @@ menu:
     # 音乐: /music/ || 
     # 电影: /movies/ || 
   导航: /link/
-  短文|| fas fa-coffee faa-tada:
+  短文||:
     语录: /yulu/
     简评: /jianping/
-  关于|| fas fa-heart:
+  关于||:
     隐私: /about/
     留言: /messageboard/
 
@@ -849,8 +849,9 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zhheo/JS-Heo@main/tag-link/tag-link.css">
   bottom:
-   - <script src="/js/av-min.js"></script>
+  - <script src="/js/av-min.js"></script>
   
 # CDN
 # Don't modify the following settings unless you know how they work
