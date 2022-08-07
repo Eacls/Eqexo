@@ -34,13 +34,10 @@
     height: 18em;
   }
 
-/*Misans字体引入*/
-@font-face{
-  font-family: 'Misans';
-  font-display: swap;
-  src: url('/font/Misans.ttf') format("truetype");
-}
-
-body {
-  font-family: 'Misans';
-}
+/*外链字体引入*/
+@font-face {
+	font-family:Eacfont;font-display: swap;
+	src: url('https://www.apple.com.cn/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold.woff2') format('woff2'),
+	     url('https://www.apple.com.cn/wss/fonts/SF-Pro-SC/v1/PingFangSC-Semibold.woff2') format('woff2');
+      }
+*{font-family: Eacfont;}
