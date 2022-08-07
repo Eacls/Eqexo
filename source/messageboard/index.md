@@ -8,7 +8,7 @@ top_img: http://imageproxy.chaoxing.com/0x0,q15,jpeg,sN13FTqipdKjaXInxsPGGDRARpb
 
 ### 1.Why Eacls?
 
-**"Eacls" 是指 "Each ahead change leader"。意为 "每一位先革者".**
+**"EACL" 是指 "Each Ahead Change Leader"。意为 "每一位先革者".  "s"则为时格shige.  "Eacls"是EACL Shige.**
 
 ### 2.Why build Blog
 

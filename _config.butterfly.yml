@@ -849,7 +849,6 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zhheo/JS-Heo@main/tag-link/tag-link.css">
   bottom:
   - <script src="/js/av-min.js"></script>
   
