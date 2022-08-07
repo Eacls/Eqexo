@@ -33,3 +33,14 @@
 #recent-posts > .recent-post-item {
     height: 18em;
   }
+
+/*Misans字体引入*/
+@font-face{
+  font-family: 'Misans';
+  font-display: swap;
+  src: url('/font/Misans.ttf') format("truetype");
+}
+
+body {
+  font-family: 'Misans';
+}
