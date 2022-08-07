@@ -1,25 +1,26 @@
 ---
-title: Hexo博客Butterfly主题魔改美化
-date: 2022-1-11
-tags:
-  - Hexo
-categories: 实用教程
-description: 关于本站魔改美化相关教程
-top_img: https://preview.cloud.189.cn/image/imageAction?param=02752F480DE3A48DEAC3B84474EE6A7E91F2EB7096FE3CFB5031FDC056FDCE95B0B560538E0DCB9DAD42A71C219139B787A37FFB8C60EBFA98919414B62F5F36F1F3685FAC9C1DCF49D2CE751B24C75184A6B13D6929656F819BFC427F0DB54DD1C88F0B693DA221EDDC6EBB8AB0E661
+categories:
+- 实用教程
+comments: null
 cover: https://preview.cloud.189.cn/image/imageAction?param=D46AAD69B808AEECA37C93A0EB7E1E52FC04A29912945EC7D849F8E14F9D473E03AF9B6E1EFF847419D35F747182A11A6395347B1B3EA69E162CCCBD0FC2FED3C68721F2E7A6996BB3E7C41AD7C99D647A443D026BB41130FFE8ECA1357051B5C97552A0402CF3781D31333B2520ACD2
-abbrlink: cecc48c5
-updated: 2022-1-11
-comments:
+date: 2022-1-11
+description: 关于本站魔改美化相关教程
+tags:
+- Hexo
+title: Hexo博客Butterfly主题魔改美化
+top_img: https://preview.cloud.189.cn/image/imageAction?param=02752F480DE3A48DEAC3B84474EE6A7E91F2EB7096FE3CFB5031FDC056FDCE95B0B560538E0DCB9DAD42A71C219139B787A37FFB8C60EBFA98919414B62F5F36F1F3685FAC9C1DCF49D2CE751B24C75184A6B13D6929656F819BFC427F0DB54DD1C88F0B693DA221EDDC6EBB8AB0E661
+updated: 2022-1-12
 ---
-
 ## 前言
+
 在2021年末，我想搭建一个博客网站，无意间接触了Hexo这样实用的静态博客框架，找到了Butterfly这样好看的主题。因而开始花大把时间去研究。时至今日，在与各位大佬携手共进的过程中，打造出了一个优雅的个人博客网站。
 
->本篇教程基于Butterfly主题3.8.3版本
+> 本篇教程基于Butterfly主题3.8.3版本
 
 ---
 
 ## 隐藏首页图
+
 {% tabs test4 %}
 
 <!-- tab 预览 -->
@@ -31,15 +32,18 @@ comments:
 <!-- tab 源码 -->
 
 主题配置文件内
+
 ```
 # The banner image of home page
 index_img: false
 ```
+
 <!-- endtab -->
 
 {% endtabs %}
 
 ## 全局背景
+
 {% tabs test4 %}
 
 <!-- tab 预览 -->
@@ -51,11 +55,13 @@ index_img: false
 <!-- tab 源码 -->
 
 你可以选择在主题配置文件内更改背景图片的url
+
 ```
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 background: url( )
 ```
-也可以选择通过引入css更改  
+
+也可以选择通过引入css更改
 
 本站渐变背景css↓
 
@@ -69,11 +75,12 @@ background: url( )
 
 {% endtabs %}
 
-
 ## 引入css/js
-在<u>博客根目录\themes\butterfly\source\css</u>下新建一个xxxxxx.css 或者在<u>博客根目录\themes\butterfly\source\js</u>下新建一个 xxxxxx.js 文件。 <kbd>Ctrl</kbd>+<kbd>C</kbd>和 <kbd>Ctrl</kbd>+<kbd>V</kbd> 填入内容。  
+
+在<u>博客根目录/themes/butterfly/source/css</u>下新建一个xxxxxx.css 或者在<u>博客根目录/themes/butterfly/source/js</u>下新建一个 xxxxxx.js 文件。 <kbd>Ctrl</kbd>+<kbd>C</kbd>和 <kbd>Ctrl</kbd>+<kbd>V</kbd> 填入内容。
 
 修改主题配置文件 **_config.butterfly.yml**
+
 ```
 inject:
   head:
@@ -81,9 +88,11 @@ inject:
   bottom:
     - <script src="xxxxxx.js"></script>
 ```
+
 其中head引入css，bottom引入js
 
 ## 顶部磁吸分类
+
 {% tabs test4 %}
 
 <!-- tab 预览 -->
@@ -93,17 +102,22 @@ inject:
 <!-- endtab -->
 
 <!-- tab 教程 -->
+
 安装
+
 ```
 npm i hexo-magnet --save
 ```
+
 详细
 [小冰教程贴](https://zfe.space/post/hexo-magnet.html)
+
 <!-- endtab -->
 
 {% endtabs %}
 
 ## 侧边栏时钟
+
 {% tabs test4 %}
 
 <!-- tab 预览 -->
@@ -113,17 +127,22 @@ npm i hexo-magnet --save
 <!-- endtab -->
 
 <!-- tab 教程 -->
+
 安装
+
 ```
 npm i hexo-electric-clock --save
 ```
+
 详细
 [小冰教程贴](https://zfe.space/post/hexo-electric-clock.html)
+
 <!-- endtab -->
 
 {% endtabs %}
 
 ## 页脚
+
 {% tabs test4 %}
 
 <!-- tab 预览 -->
@@ -138,7 +157,9 @@ npm i hexo-electric-clock --save
 # Footer Background
 footer_bg: # true
 ```
+
 如果写为true，则会根据当前页面的top_img变化；如果写图片链接，则会呈现图片；如果写的不符合语法，则会呈现主题色。
+
 <!-- endtab -->
 
 {% endtabs %}
@@ -162,13 +183,15 @@ footer_bg: # true
   overflow: hidden;
 }
 ```
- <kbd>Ctrl</kbd>+<kbd>C</kbd>和 <kbd>Ctrl</kbd>+<kbd>V</kbd> 填入之前新建的css文件内。
+
+<kbd>Ctrl</kbd>+<kbd>C</kbd>和 <kbd>Ctrl</kbd>+<kbd>V</kbd> 填入之前新建的css文件内。
 
 <!-- endtab -->
 
 {% endtabs %}
 
 ## 侧边小按钮
+
 {% tabs test4 %}
 
 <!-- tab 预览 -->
@@ -192,13 +215,14 @@ footer_bg: # true
 }
 ```
 
- <kbd>Ctrl</kbd>+<kbd>C</kbd>和 <kbd>Ctrl</kbd>+<kbd>V</kbd> 填入之前新建的css文件内。
+<kbd>Ctrl</kbd>+<kbd>C</kbd>和 <kbd>Ctrl</kbd>+<kbd>V</kbd> 填入之前新建的css文件内。
 
 <!-- endtab -->
 
 {% endtabs %}
 
 ## 底部切换页面按钮
+
 {% tabs test4 %}
 
 <!-- tab 预览 -->
@@ -225,13 +249,14 @@ footer_bg: # true
 }
 ```
 
- <kbd>Ctrl</kbd>+<kbd>C</kbd>和 <kbd>Ctrl</kbd>+<kbd>V</kbd> 填入之前新建的css文件内。
+<kbd>Ctrl</kbd>+<kbd>C</kbd>和 <kbd>Ctrl</kbd>+<kbd>V</kbd> 填入之前新建的css文件内。
 
 <!-- endtab -->
 
 {% endtabs %}
 
 ## 首页文章卡片高度
+
 {% tabs test4 %}
 
 <!-- tab 预览 -->
@@ -247,15 +272,17 @@ footer_bg: # true
      height: 20em;
 }
 ```
+
 其中更改“20”，数字越高，卡片越高。
 
- <kbd>Ctrl</kbd>+<kbd>C</kbd>和 <kbd>Ctrl</kbd>+<kbd>V</kbd> 填入之前新建的css文件内。
+<kbd>Ctrl</kbd>+<kbd>C</kbd>和 <kbd>Ctrl</kbd>+<kbd>V</kbd> 填入之前新建的css文件内。
 
 <!-- endtab -->
 
 {% endtabs %}
 
 ## 简洁侧边栏
+
 {% tabs test4 %}
 
 <!-- tab 预览 -->
@@ -267,6 +294,7 @@ footer_bg: # true
 <!-- tab 源码 -->
 
 主题配置文件内
+
 ```
 # toc (目錄)
 toc:
@@ -274,11 +302,13 @@ toc:
   number: true
   style_simple: true
 ```
+
 <!-- endtab -->
 
 {% endtabs %}
 
 ## 更改网站logo
+
 {% tabs test4 %}
 
 <!-- tab 预览 -->
@@ -288,7 +318,8 @@ toc:
 <!-- endtab -->
 
 <!-- tab 方法 -->
-在<u>博客根目录\themes\butterfly\source\img</u>中更换**favicon.png**;404图片同理。在更换logo图片时建议使用PS调整为32×32并添加圆角。
+
+在<u>博客根目录/themes/butterfly/source/img</u>中更换**favicon.png**;404图片同理。在更换logo图片时建议使用PS调整为32×32并添加圆角。
 
 <!-- endtab -->
 
@@ -297,9 +328,11 @@ toc:
 ## 网站速度优化
 
 ### 压缩图片
+
 [压缩图片，减少负载](https://tinypng.com/)
 
 ### 异步加载
+
 当css/js过多时，会拖慢网站加载速度，这时可以使用异步加载进行整合优化。
 [糖果屋教程](https://akilar.top/posts/615d5ede/)
 
@@ -307,11 +340,8 @@ toc:
 
 <!-- 大佬们 -->
 
--   [Akilar糖果屋](https://akilar.top/)
--   [CC康纳百川](https://blog.ccknbc.cc/)
--   [小冰博客](https://zfe.space/)
--   [小嘉部落格](https://blog.imzjw.cn/)
--   [Gahotx's blog](https://gahotx.cn/)
-
-
-
+- [Akilar糖果屋](https://akilar.top/)
+- [CC康纳百川](https://blog.ccknbc.cc/)
+- [小冰博客](https://zfe.space/)
+- [小嘉部落格](https://blog.imzjw.cn/)
+- [Gahotx's blog](https://gahotx.cn/)
