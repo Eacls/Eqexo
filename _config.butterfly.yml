@@ -8,18 +8,18 @@
 
 menu:
   # 主页: / || fas fa-home
-  归档: /archives/ || fas fa-archive
+  归档: /archives/
   # 分类: /categories/ || 
   # 清单||fas fa-list:
     # 音乐: /music/ || 
     # 电影: /movies/ || 
-  导航: /link/ || fas fa-link
+  导航: /link/
   短文|| fas fa-coffee faa-tada:
-    语录: /yulu/ || fa-fw fas fa-user-circle faa-spin
-    简评: /jianping/ || fa-fw fas fa-compass
+    语录: /yulu/
+    简评: /jianping/
   关于|| fas fa-heart:
-    隐私: /about/ || fas fa-book
-    留言: /messageboard/ || fas fa-comment-dots
+    隐私: /about/
+    留言: /messageboard/
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
@@ -47,7 +47,7 @@ copy:
 #   icon: link || the description
 social:
    fab fab fa-twitter: https://twitter.com/Eacls1 || Twitter
-   fab fab fa-qq: https://user.qzone.qq.com/2652720816/main || QQ
+   fab fa-brands fa-square-facebook: https://www.facebook.com/profile.php?id=100050627941429 || Facebook
    fab fa-telegram-plane: https://t.me/rightea || Telegram
 
 

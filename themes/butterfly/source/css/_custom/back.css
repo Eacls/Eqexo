@@ -51,11 +51,6 @@
   border-radius: 35px;
 }
 
-/*文章页目录卡片圆角*/
-#aside-content .card-widget {
-  border-radius: 20px;
-}
-
 /*文章页top栏美化*/
 #post-info .post-title {
   font-weight: 600;
@@ -69,4 +64,22 @@
   font-size: 0.79em;
   letter-spacing: 3px;
   font-weight: 600;
+}
+
+#nav {
+  height: 70px;
+}
+
+/*文章页目录卡片圆角*/
+#aside-content .card-widget {
+  border-radius: 20px;
+}
+
+/*文章页目录美化*/
+#aside-content .card-widget {
+  padding: 2rem 1.2rem;
+}
+
+#aside-content #card-toc {
+  right: -35px !important;
 }
