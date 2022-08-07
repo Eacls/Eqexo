@@ -54,9 +54,9 @@
 /*文章页top栏美化*/
 #post-info .post-title {
   font-weight: 600;
-  font-size: 3.5em;
+  font-size: 2.5em;
   line-height: 2.2;
-  letter-spacing: 12px;
+  letter-spacing: 9px;
 }
 
 /*顶栏美化*/
@@ -81,10 +81,6 @@
 /*文章页目录美化*/
 #aside-content .card-widget {
   padding: 2rem 1.2rem;
-}
-
-#aside-content #card-toc {
-  right: -35px !important;
 }
 
 /*调宽页脚*/
