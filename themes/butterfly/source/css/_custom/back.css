@@ -40,3 +40,33 @@
   font-display: swap;
 	src: url('https://cdn.cnbj1.fds.api.mi-img.com/mi-font-service/misans/500/lt.53f5494eba0de730.0.woff2') format('woff2')
       }
+
+/*文章页卡片宽幅占比*/
+.layout {
+        max-width: 1280px;
+    }
+
+/*文章页卡片圆角*/
+.layout > div:first-child:not(.recent-posts) {
+  border-radius: 35px;
+}
+
+/*文章页目录卡片圆角*/
+#aside-content .card-widget {
+  border-radius: 20px;
+}
+
+/*文章页top栏美化*/
+#post-info .post-title {
+  font-weight: 600;
+  font-size: 3.5em;
+  line-height: 2.2;
+  letter-spacing: 12px;
+}
+
+/*顶栏美化*/
+#nav .site-page {
+  font-size: 0.79em;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
