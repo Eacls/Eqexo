@@ -101,6 +101,11 @@ font:
   letter-spacing: 9px; /*字体间距*/
 }
 
+/*整体位置调整*/
+#page-header #post-info {
+  bottom: 8rem;
+}
+
 /*移动端信息栏适配*/
 #page-header.post-bg {
   height: 26rem;
