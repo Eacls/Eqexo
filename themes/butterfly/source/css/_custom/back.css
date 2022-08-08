@@ -51,12 +51,17 @@
   border-radius: 35px;
 }
 
-/*文章页top栏美化*/
+/*文章页信息栏美化*/
 #post-info .post-title {
   font-weight: 600;
   font-size: 2.5em;
   line-height: 2.2;
   letter-spacing: 9px;
+}
+
+/*移动端信息栏适配*/
+#page-header.post-bg {
+  height: 26rem;
 }
 
 /*顶栏美化*/
