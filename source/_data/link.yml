@@ -39,7 +39,7 @@
       avatar: https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg
       descr: 用这生命中的每一秒，给自己一个不后悔的未来
     - name: CC的部落格
-      link: https://blog.ccknbc.cc
+      link: https://blog.ccknbc.cc/
       avatar: https://gcore.jsdelivr.net/gh/ccknbc-backup/cdn@latest/logo/logo.png
       descr: CC康纳百川的小窝，与你分享二三事
     - name: Heo
@@ -51,7 +51,7 @@
       avatar: https://npm.elemecdn.com/akilar-candyassets/image/siteicon/favicon.png
       descr: 期待您的光临！
     - name: 小冰博客
-      link: https://zfe.one
+      link: https://zfe.space/
       avatar: https://zfe.space/images/headimage.png
       descr: 做个有梦想的人！
     - name: 报刊-keep walking
@@ -59,7 +59,11 @@
       avatar: https://baokan-blog-img.oss-cn-hangzhou.aliyuncs.com/img/tx/blog_tx.jpg
       descr: 岁月不回头，且行且珍惜。
     - name: Tianli
-      link: https://tianli-blog.club
+      link: https://tianli-blog.club/
       avatar: https://img1.tianli0.top/logo.png
       descr: 惟其不可能，所以才相信。
+    - name: Yuexin’s Blog
+      link: https://wyxogo.top/
+      avatar: https://wyxogo.top/images/avatar.webp
+      descr: KEEP WALKING
 
