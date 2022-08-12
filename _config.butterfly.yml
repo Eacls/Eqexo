@@ -116,12 +116,12 @@ tag_per_img: http://imageproxy.chaoxing.com/0x0,q15,jpeg,sumITTL0AJGnNCN8dDXVZ21
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: http://imageproxy.chaoxing.com/0x0,q15,jpeg,skjSsq_32R7k2mNKWhnvSemfZ7mHOoTyhzUZLNEX-4_w/https://p.ananas.chaoxing.com/star3/origin/83b53ab07af7e7e6ace4c52d7ea1b1b0.png
+category_img: https://preview.cloud.189.cn/image/imageAction?param=8DD1042123C4DCCA78BDAE7402E0A0663C8332C36CE8B93F965D889D8CE71FCE2E59A711580DB2BDE12E8294A4088D20BAFA9341B754A18B2206D699A9A56630BCB5CFF9A26FEB0563987F951F7A3620C8BE78EE7BC4EC5D59AC84264F3B02867928CD70018A53B297DC3649628F9740
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img: http://imageproxy.chaoxing.com/0x0,q15,jpeg,skjSsq_32R7k2mNKWhnvSemfZ7mHOoTyhzUZLNEX-4_w/https://p.ananas.chaoxing.com/star3/origin/83b53ab07af7e7e6ace4c52d7ea1b1b0.png
+category_per_img: https://preview.cloud.189.cn/image/imageAction?param=8DD1042123C4DCCA78BDAE7402E0A0663C8332C36CE8B93F965D889D8CE71FCE2E59A711580DB2BDE12E8294A4088D20BAFA9341B754A18B2206D699A9A56630BCB5CFF9A26FEB0563987F951F7A3620C8BE78EE7BC4EC5D59AC84264F3B02867928CD70018A53B297DC3649628F9740
 
 cover:
   # display the cover or not (是否顯示文章封面)
