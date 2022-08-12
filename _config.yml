@@ -167,7 +167,7 @@ magnet:
       icon: 🎩
   color_setting:
     text_color: black
-    text_hover_color: "#F0FFFF"
+    text_hover_color: black
     background_color: white
     background_hover_color: "#F0FFFF"
   layout:

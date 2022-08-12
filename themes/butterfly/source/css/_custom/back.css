@@ -31,7 +31,7 @@
 
 /*首页文章卡片高度*/
 #recent-posts > .recent-post-item {
-    height: 18em;
+    height: 17em;
   }
 
 /*外链字体引入*/
@@ -102,7 +102,40 @@
   padding: 2rem 1.2rem;
 }
 
+#aside-content #card-toc .toc-content .toc-link.active {
+  background: #669cbe;
+  border-radius: 5px;
+}
+
 /*调宽页脚*/
 #footer-wrap {
   padding: 3rem 2rem;
+}
+
+/*版权卡片美化*/
+#post .post-copyright {
+  position: relative;
+  margin: 2rem 0 0.5rem;
+  padding: 1.5rem 0.8rem;
+  border: 14px solid #f6f6f6;
+  border-radius: 20px;
+}
+
+#post .post-copyright:before {
+  position: absolute;
+  top: -1.9rem;
+  color: #49b1f540;
+  font-size: 6rem;
+}
+
+/*文章分页卡片美化*/
+#pagination .prev-post a, #pagination .next-post a {
+  border-style: ridge;
+  border-width: 8px;
+  border-color: #d2d2d2;
+}
+
+/*文章相关推荐卡片美化*/
+.relatedPosts > .relatedPosts-list > div {
+  border-radius: 20px;
 }
