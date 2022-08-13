@@ -29,7 +29,7 @@ updated: '2022-08-13 10:06:24'
 
 <!-- tab 源码 -->
 
-```CSS
+```
 /*版权卡片美化*/
 #post .post-copyright {
 position: relative;
