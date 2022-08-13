@@ -9,7 +9,7 @@ tags:
 - Hexo
 title: Butterfly主题魔改美化-贰点伍
 top_img: https://preview.cloud.189.cn/image/imageAction?param=4037525B5116A9E3A21832EF9B312D9D162FE4822D76482C36C3F59A1B9C9109FC52161B154221F75349C436842C39BEF16E2169E6A1B618734DAF99333BF2B3E757E6C29DDEEED054353664B03579C0DA901557A5B360D45E7C20F70BA6FA9A721A94D780CD50549516F4D4D647B719
-updated: '2022-08-13 06:55:59'
+updated: '2022-08-13 06:56:08'
 ---## 前言
 
 ### 为什么是贰点伍而不是叁
@@ -125,6 +125,3 @@ font-size: 6rem; /*C大小*/
 ## 关于魔改美化理念
 
 **博客的魔改美化应遵循阅读体验优先的原则，保持纯净页面，因而不做繁冗的增添与过于商业性质的修改。**
-
-
-
