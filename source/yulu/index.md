@@ -3,7 +3,7 @@ aside: false
 date: 2022-05-30 14:10:30
 title: 语录
 top_img: https://preview.cloud.189.cn/image/imageAction?param=C9906C9B7AEF076C451AB9A46DD597D3F9F2E88B39B3CF6D6616839D05060BEDA15D30DA4199B172EF3C10F22D3A8A8F59527B611317314337892A022463A7A4A7B0127D86FD416D4D221FC21DE5BA0DEAF4BEEFAB192E7A03B25C884677AFED58891F9049777445D093B921C61EFEFF
-updated: 2022-09-30 22:33:04
+updated: 2022-10-18 21:32:22
 ---
 ## 语录———记录时格的规范性短句言论
 
@@ -26,3 +26,4 @@ updated: 2022-09-30 22:33:04
 - 人们需要重拾西方礼仪或先贤之礼。
 - 同一个问题中，作为当局者与作为旁观者会出现大有不同的态度与措施。
 - 暗处的棍棒比明处的刀枪来得要更为可怕。
+- 想要得到他人的尊重需要满足两个条件：自我尊重与尊重他人。
