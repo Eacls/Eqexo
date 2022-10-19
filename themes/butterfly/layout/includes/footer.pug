@@ -15,3 +15,32 @@
       a(href='https://github.com/jerryc127/hexo-theme-butterfly')= 'Butterfly'
   if theme.footer.custom_text
     .footer_custom_text!=`${theme.footer.custom_text}`
+
+#footer-banner
+  .footer-banner-links
+    .footer-banner-left
+      .footer-banner-left
+        #footer-banner-tips
+        script(src='https://unpkg.com/typed.js@2.0.12/lib/typed.min.js')
+        script.
+          var typed = new Typed("#footer-banner-tips", {
+            strings: ["仗剑独自走天涯", "看看世界的繁华"],
+            startDelay: 200,
+            backDelay: 2000,
+            typeSpeed: 100,
+            loop: true,
+            backSpeed: 20
+          })
+
+    .footer-banner-right
+      a.footer-banner-link(href=" " title="Shige") ©2021 - 2022 By 时格
+      a.footer-banner-link |
+      a.footer-banner-link(href="https://github.com/jerryc127/hexo-theme-butterfly" title="theme") 主题
+      a.footer-banner-link |
+      a.footer-banner-link(href="/about/" title="") 隐私
+      a.footer-banner-link |
+      a.footer-banner-link(href="/about/" title="about") 关于
+      a.footer-banner-link |
+      a.footer-banner-link.cc(href="/cc/" title="cc协议")
+        i.iconfont.icon-cc
+        span 协议
