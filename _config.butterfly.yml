@@ -323,7 +323,7 @@ valine:
   pageSize: 10 # comment list page size
   avatar: robohash # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
-  placeholder: 发表信息推荐使用Twikoo，以便得到回复。Valine支持全匿评论，在这里你可以畅所欲言。 # valine comment input placeholder (like: Please leave your footprints)
+  placeholder: 欢迎评论 # valine comment input placeholder (like: Please leave your footprints)
   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
   recordIP: true # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
@@ -661,7 +661,7 @@ aside:
       link: https://github.com/Eacls/eacls.github.io
   card_announcement:
     enable: false
-    content: 搜索请使用Ctrl+F；手机端请使用在此页面查找
+    content: 
   card_recent_post:
     enable: false
     limit: 0 # if set 0 will show all
