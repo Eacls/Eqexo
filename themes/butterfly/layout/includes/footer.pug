@@ -1,21 +1,3 @@
-#footer-wrap
-  if theme.footer.owner.enable
-    - var now = new Date()
-    - var nowYear = now.getFullYear()
-    if theme.footer.owner.since && theme.footer.owner.since != nowYear
-      .copyright!= `&copy;${theme.footer.owner.since} - ${nowYear} By ${config.author}`
-    else
-      .copyright!= `&copy;${nowYear} By ${config.author}`
-  if theme.footer.copyright
-    .framework-info
-      span= _p('footer.framework') + ' '
-      a(href='https://hexo.io')= 'Hexo'
-      span.footer-separator |
-      span= _p('footer.theme') + ' '
-      a(href='https://github.com/jerryc127/hexo-theme-butterfly')= 'Butterfly'
-  if theme.footer.custom_text
-    .footer_custom_text!=`${theme.footer.custom_text}`
-
 #footer-banner
   .footer-banner-links
     .footer-banner-left
@@ -35,12 +17,11 @@
     .footer-banner-right
       a.footer-banner-link(href=" " title="Shige") ©2021 - 2022 By 时格
       a.footer-banner-link |
-      a.footer-banner-link(href="https://github.com/jerryc127/hexo-theme-butterfly" title="theme") 主题
+      a.footer-banner-link(href=" " title="EACL") Copyright EACL Shige
       a.footer-banner-link |
-      a.footer-banner-link(href="/about/" title="") 隐私
-      a.footer-banner-link |
-      a.footer-banner-link(href="/about/" title="about") 关于
-      a.footer-banner-link |
-      a.footer-banner-link.cc(href="/cc/" title="cc协议")
+      a.footer-banner-link(href="https://icp.gov.moe/?keyword=20210171" title="萌ICP")
+        https://icp.gov.moe/images/ico64.png
+        span 萌ICP
+      a.footer-banner-link.cc(href="https://creativecommons.org/licenses/by-nc-sa/4.0" title="cc协议")
         i.iconfont.icon-cc
         span 协议
