@@ -63,6 +63,8 @@ algolia_search:
 # Local search
 local_search:
   enable: true
+  preload: false
+  CDN:
 
 # Math (數學)
 # --------------------------------------
@@ -174,20 +176,31 @@ wordcount:
 # false: do not show the article introduction
 index_post_content:
   method: 2
-  length: 250 # if you set method to 2 or 3, the length need to config
+  length: 500 # if you set method to 2 or 3, the length need to config
+
+# anchor
+anchor:
+  button:
+    enable: false
+    always_show: false
+    icon: # the unicode value of Font Awesome icon, such as '\3423'
+  auto_update: false # when you scroll in post, the URL will update according to header id.
 
 # Post
 # --------------------------------------
 
 # toc (目錄)
 toc:
-  enable: true
+  post: true
+  page: false
   number: true
-  style_simple: true
+  expand: false
+  style_simple: true # for post
 
 post_copyright:
   enable: true
   decode: false
+  author_href:
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -195,10 +208,10 @@ post_copyright:
 reward:
   enable: false
   QR_code:
-    # - img: 
+    # - img: /img/wechat.jpg
     #   link: 
     #   text: wechat
-    # - img: 
+    # - img: /img/alipay.jpg
     #   link: 
     #   text: alipay
 
@@ -288,12 +301,8 @@ disqus:
 # https://github.com/SukkaW/DisqusJS
 disqusjs:
   shortname:
-  siteName:
   apikey:
-  api:
-  nocomment: # display when a blog post or an article has no comment attached
-  admin:
-  adminLabel:
+  option:
 
 # livere (來必力)
 # https://www.livere.com/
@@ -308,11 +317,6 @@ gitalk:
   repo:
   owner:
   admin:
-  language: en # en, zh-CN, zh-TW, es-ES, fr, ru
-  perPage: 10 # Pagination size, with maximum 100.
-  distractionFreeMode: false # Facebook-like distraction free mode.
-  pagerDirection: last # Comment sorting direction, available values are last and first.
-  createIssueManually: false # Gitalk will create a corresponding github issue for your every single page automatically
   option:
 
 # valine
@@ -338,10 +342,8 @@ valine:
 # https://waline.js.org/
 waline:
   serverURL: # Waline server address url
-  avatar: monsterid # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
-  avatarCDN: # Gravatar CDN baseURL
   bg: # waline background
-  visitor: false
+  pageview: false
   option:
 
 # utterances
@@ -361,7 +363,7 @@ facebook_comments:
   user_id: # optional
   pageSize: 10 # The number of comments to show
   order_by: social # social/time/reverse_time
-  lang: en_US # Language en_US/zh_CN/zh_TW and so on
+  lang: zh_TW # Language en_US/zh_CN/zh_TW and so on
 
 # Twikoo
 # https://github.com/imaegoo/twikoo
@@ -411,6 +413,13 @@ crisp:
   enable: false
   website_id:
 
+# messenger
+# https://developers.facebook.com/docs/messenger-platform/discovery/facebook-chat-plugin/
+messenger:
+  enable: false
+  pageID:
+  lang: zh_TW # Language en_US/zh_CN/zh_TW and so on
+
 # Footer Settings
 # --------------------------------------
 footer:
@@ -431,10 +440,6 @@ baidu_analytics: 15bb45ba3ff3500abf98eb9b0066ffde
 # https://analytics.google.com/analytics/web/
 google_analytics:
 
-# Tencent Analytics ID
-# https://mta.qq.com
-tencent_analytics:
-
 # CNZZ Analytics
 # https://www.umeng.com/
 cnzz_analytics:
@@ -453,8 +458,8 @@ microsoft_clarity:
 # Google Adsense (谷歌廣告)
 google_adsense:
   enable: false
-  auto_ads: false
-  js:
+  auto_ads: true
+  js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   client:
   enable_page_level_ads: false
 
@@ -493,6 +498,9 @@ site_verification:
 #   toc_color: "#00c4b6"
 #   blockquote_padding_color: "#49b1f5"
 #   blockquote_background_color: "#49b1f5"
+#   scrollbar_color: "#49b1f5"
+#   meta_theme_color_light: "ffffff"
+#   meta_theme_color_dark: "#0d0d0d"
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
@@ -510,7 +518,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://cdn.jsdelivr.net/gh/Eacls/eacpho/img/I5PuPH.jpg)
+background:
 
 # Footer Background
 footer_bg: url
@@ -623,34 +631,46 @@ hr_icon:
 subtitle:
   enable: false
   # Typewriter Effect (打字效果)
-  effect: false
+  effect: true
+  # Effect Speed Options (打字效果速度參數)
+  startDelay: 300 # time before typing starts in milliseconds
+  typeSpeed: 150 # type speed in milliseconds
+  backSpeed: 50 # backspacing speed in milliseconds
   # loop (循環打字)
-  loop: false
-  # source調用第三方服務
-  # source: true
-  source: false
-  # source: 2  調用一言網的一句話（簡體）
-  # source: 3  調用一句網（簡體）
-  # source: 4  調用今日詩詞（簡體）
+  loop: true
+  # source 調用第三方服務
+  # source: false 關閉調用
+  # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
+  # source: 2  調用一句網（簡體） http://yijuzhan.com/
+  # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  # source: false
-  # 如果有英文逗號' , ',請使用轉義字元 &#44;
-  # 如果有英文雙引號' " ',請使用轉義字元 &quot;
-  # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
-  # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
+  source: false
+  # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
 
 # Loading Animation (加載動畫)
-preloader: false
+preloader:
+  enable: false
+  # source
+  # 1. fullpage-loading
+  # 2. pace (progress bar)
+  source: 1
+  # pace theme (see https://codebyzach.github.io/pace/)
+  pace_css_url:
 
 # aside (側邊欄)
 # --------------------------------------
+
 aside:
   enable: true
   hide: false
   button: true
   mobile: true # display on mobile
   position: right # left or right
+  display:
+    archive: true
+    tag: true
+    category: true
   card_author:
     enable: true
     description:
@@ -714,9 +734,6 @@ newest_comments:
 # Bottom right button (右下角按鈕)
 # --------------------------------------
 
-# Change font size
-change_font_size: false
-
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
   enable: true
@@ -745,6 +762,14 @@ darkmode:
   # autoChangeMode: false
   autoChangeMode: false
 
+# Don't modify the following settings unless you know how they work (非必要請不要修改 )
+# Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
+# Don't repeat 不要重複
+rightside_item_order:
+  enable: false
+  hide: # readmode,translate,darkmode,hideAside
+  show: # toc,chat,comment
+
 # Lightbox (圖片大圖查看模式)
 # --------------------------------------
 # You can only choose one, or neither (只能選擇一個 或者 兩個都不選)
@@ -765,7 +790,9 @@ fancybox: true
 mermaid:
   enable: false
   # built-in themes: default/forest/dark/neutral
-  theme: default
+  theme:
+    light: default
+    dark: dark
 
 # Note (Bootstrap Callout)
 note:
@@ -839,7 +866,16 @@ lazyload:
 
 # Open graph meta tags
 # https://developers.facebook.com/docs/sharing/webmasters/
-Open_Graph_meta: true
+Open_Graph_meta:
+  enable: true
+  option:
+    # twitter_card:
+    # twitter_image:
+    # twitter_id:
+    # twitter_site:
+    # google_plus:
+    # fb_admins:
+    # fb_app_id:
 
 # Add the vendor prefixes to ensure compatibility
 css_prefix: true
@@ -849,6 +885,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+  # - <link rel="stylesheet" href="/xxx.css">
   bottom:
   - <script src="/js/av-min.js"></script>
   
@@ -856,86 +893,72 @@ inject:
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
 CDN:
-  # main
-  main_css: /css/index.css
-  jquery: https://unpkg.com/jquery@latest/dist/jquery.min.js
-  main: /js/main.js
-  utils: /js/utils.js
+  # The CDN provider of internal scripts (主題內部 js 的 cdn 配置)
+  # option: local/jsdelivr/unpkg/cdnjs/custom
+  # Dev version can only choose. ( dev版的主題只能設置為 local )
+  internal_provider: local
 
-  # pjax
-  pjax: https://unpkg.com/pjax/pjax.min.js
+  # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
+  # option: local/jsdelivr/unpkg/cdnjs/custom
+  # when set it to local, you need to install hexo-butterfly-extjs
+  third_party_provider: unpkg
 
-  # comments
-  gitalk: https://unpkg.com/gitalk@latest/dist/gitalk.min.js
-  gitalk_css: https://unpkg.com/gitalk/dist/gitalk.min.css
-  valine: https://unpkg.com/valine/dist/Valine.min.js
-  disqusjs: https://unpkg.com/disqusjs@1/dist/disqus.js
-  disqusjs_css: https://unpkg.com/disqusjs@1/dist/disqusjs.css
-  utterances: https://utteranc.es/client.js
-  twikoo: https://unpkg.com/twikoo@1.6.4/dist/twikoo.all.min.js
-  waline: https://unpkg.com/@waline/client/dist/Waline.min.js
+  # Add version number to CDN, true or false  
+  version: false
 
-  # share
-  addtoany: https://static.addtoany.com/menu/page.js
-  sharejs: https://unpkg.com/social-share.js/dist/js/social-share.min.js
-  sharejs_css: https://unpkg.com/social-share.js/dist/css/share.min.css
+  # Custom format
+  # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
+  custom_format:
 
-  # search
-  local_search: /js/search/local-search.js
-  algolia_js: /js/search/algolia.js
-  algolia_search: https://unpkg.com/instantsearch.js@2.10.5/dist/instantsearch.min.js
-  algolia_search_css: https://unpkg.com/instantsearch.js@2.10.5/dist/instantsearch.min.css
-
-  # math
-  mathjax: https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-  katex: https://unpkg.com/katex@latest/dist/katex.min.css
-  katex_copytex: https://unpkg.com/katex@latest/dist/contrib/copy-tex.min.js
-  katex_copytex_css: https://unpkg.com/katex@latest/dist/contrib/copy-tex.css
-  mermaid: https://unpkg.com/mermaid/dist/mermaid.min.js
-
-  # count
-  busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
-
-  # background effect
-  canvas_ribbon: https://unpkg.com/butterfly-extsrc@1/dist/canvas-ribbon.min.js
-  canvas_fluttering_ribbon: https://unpkg.com/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js
-  canvas_nest: https://unpkg.com/butterfly-extsrc@1/dist/canvas-nest.min.js
-
-  lazyload: https://unpkg.com/vanilla-lazyload/dist/lazyload.iife.min.js
-  typed: https://unpkg.com/typed.js/lib/typed.min.js
-  pangu: https://unpkg.com/pangu/dist/browser/pangu.min.js
-
-  # photo
-  fancybox_css: https://unpkg.com/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
-  fancybox: https://unpkg.com/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
-  medium_zoom: https://unpkg.com/medium-zoom/dist/medium-zoom.min.js
-
-  # snackbar
-  snackbar_css: https://unpkg.com/node-snackbar/dist/snackbar.min.css
-  snackbar: https://unpkg.com/node-snackbar/dist/snackbar.min.js
-
-  # effect
-  activate_power_mode: https://unpkg.com/butterfly-extsrc@1/dist/activate-power-mode.min.js
-  fireworks: https://unpkg.com/butterfly-extsrc@1/dist/fireworks.min.js
-  click_heart: https://unpkg.com/butterfly-extsrc@1/dist/click-heart.min.js
-  ClickShowText: https://unpkg.com/butterfly-extsrc@1/dist/click-show-text.min.js
-
-  # fontawesome
-  fontawesome: https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css
-
-  # Conversion between Traditional and Simplified Chinese
-  translate: /js/tw_cn.js
-
-  # justifiedGallery
-  justifiedGallery_js: https://unpkg.com/justifiedGallery/dist/js/jquery.justifiedGallery.min.js
-  justifiedGallery_css: https://unpkg.com/justifiedGallery/dist/css/justifiedGallery.min.css
-
-  # aplayer
-  aplayer_css: https://unpkg.com/aplayer/dist/APlayer.min.css
-  aplayer_js: https://unpkg.com/aplayer/dist/APlayer.min.js
-  meting_js: https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
-
-  # Prism.js
-  prismjs_js: https://unpkg.com/prismjs/prism.min.js
-  prismjs_lineNumber_js: https://unpkg.com/prismjs/plugins/line-numbers/prism-line-numbers.min.js
-  prismjs_autoloader: https://unpkg.com/prismjs/plugins/autoloader/prism-autoloader.min.js
+  option:
+    # main_css:
+    # main:
+    # utils:
+    # translate:
+    # local_search:
+    # algolia_js:
+    # algolia_search_v4:
+    # instantsearch_v4:
+    # pjax:
+    # gitalk:
+    # gitalk_css:
+    # blueimp_md5:
+    # valine:
+    # disqusjs:
+    # disqusjs_css:
+    # twikoo:
+    # waline_js:
+    # waline_css:
+    # sharejs:
+    # sharejs_css:
+    # mathjax:
+    # katex:
+    # katex_copytex:
+    # mermaid:
+    # canvas_ribbon:
+    # canvas_fluttering_ribbon:
+    # canvas_nest:
+    # lazyload:
+    # instantpage:
+    # typed:
+    # pangu:
+    # fancybox_css_v4:
+    # fancybox_v4:
+    # medium_zoom:
+    # snackbar_css:
+    # snackbar:
+    # activate_power_mode:
+    # fireworks:
+    # click_heart:
+    # ClickShowText:
+    # fontawesomeV6:
+    # flickr_justified_gallery_js:
+    # flickr_justified_gallery_css:
+    # aplayer_css:
+    # aplayer_js:
+    # meting_js:
+    # prismjs_js:
+    # prismjs_lineNumber_js:
+    # prismjs_autoloader:
+    # artalk_js:
+    # artalk_css:
