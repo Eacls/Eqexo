@@ -4,12 +4,6 @@
     overflow: hidden;
   }
 
-/* 右侧小按钮圆角 */
-#rightside>div>button,#to_comment {
-    margin-right: 4px;
-    border-radius: 7px;
-  }
-
 /*侧边滑动颜色*/
 :root {
     --btn-bg: #3a87b9;

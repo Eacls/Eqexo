@@ -178,16 +178,6 @@ index_post_content:
   method: 2
   length: 500 # if you set method to 2 or 3, the length need to config
 
-# anchor
-anchor:
-  button:
-    enable: false
-    always_show: false
-    icon: # the unicode value of Font Awesome icon, such as '\3423'
-  auto_update: false # when you scroll in post, the URL will update according to header id.
-
-# Post
-# --------------------------------------
 
 # toc (目錄)
 toc:
