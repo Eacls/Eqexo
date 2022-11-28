@@ -1,4 +1,4 @@
-/*GitHub开源圆角*/
+/*GitHub开源*/
 #card-info-btn {
     border-radius: 7px;
     overflow: hidden;
@@ -35,4 +35,111 @@
 }
 #page-header.nav-fixed #nav {
   top: -70px;
+}
+
+ /* 文章目录 */
+ #aside-content #card-toc .toc-content {
+  margin: 10px -18px;
+}
+ #aside-content #card-toc .toc-content .toc-link.active {
+  line-height: 1.2;
+  border-radius: 12px;
+  border-left-color: var(--heo-hovertext);
+  background-color: var(--heo-card-bg);
+  color: var(--heo-lighttext);
+  font-weight: bold;
+  font-size: 20px;
+}
+[data-theme=dark].toc .toc-item.active .toc-link .toc-text {
+  color: var(--heo-white);
+}
+#aside-content #card-toc .toc-content .toc-item.active .toc-link {
+  opacity: 1;
+  border-radius: 8px;
+}
+#aside-content #card-toc .toc-content .toc-link {
+  line-height: 1.2;
+  padding: 8px;
+  border-left: 0px solid transparent;
+  border-radius: 12px;
+  color: var(--heo-secondtext);
+  cursor: default;
+}
+#aside-content #card-toc .toc-content .toc-link:not(.active) span {
+  opacity: 0.6;
+  cursor: pointer;
+  filter: blur(1px);
+  transition: 0.3s;
+}
+#aside-content #card-toc:hover .toc-content .toc-link:not(.active) span {
+  filter: blur(0px);
+  opacity: 1;
+}
+#aside-content #card-toc .toc-content .toc-link:not(.active) span:hover {
+  color: var(--heo-lighttext);
+}
+
+/* 文章标题 */
+#post-info .post-title {
+  color: var(white);
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 1.2;
+  text-align: center;
+  margin: 1rem 0 1rem 0 !important;
+  -webkit-line-clamp: 2;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  #post-info .post-title {
+    font-size: 1.6rem;
+    -webkit-line-clamp: 3;
+    margin: 0.2rem auto !important;
+    text-align: center;
+    z-index: 1;
+  }
+}
+
+#page-header.post-bg:before {
+  background-color: rgb(0 0 0 / 60%);
+  border-bottom-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+}
+element.style {
+  border-bottom-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+}
+
+/* 文章顶部其他信息 */
+#post-meta>div {
+  text-align: center;
+  color:white
+}
+/* 隐藏信息文字 */
+#post-info #post-meta .post-meta-label {
+  display: none;
+}
+/* 图标数字间距 */
+#post-info #post-meta .post-meta-icon {
+  margin-right: 0.3rem;
+}
+/* 每组间距 */
+#post-info #post-meta .post-meta-separator {
+  margin: 0px 0.4rem;
+}
+
+/*本地搜索美化*/
+.search-dialog .search-nav {
+    color: #000000;
+    font-size: 1.6em;
+    line-height: 2;
+}
+#local-search .search-dialog .local-search-box input {
+  padding: 13px 21px;
+  border: 3px solid #4182d9;
+  border-radius: 11px;
+}
+hr {
+  border: 3px dashed #4f80d8;
 }
