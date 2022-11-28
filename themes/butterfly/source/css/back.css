@@ -7,22 +7,21 @@
   
 /*底部圆角*/
 #pagination .page-number.current {
-    border-radius: 14px;
-  }
+  background: #2d587a;
+  color: #fff;
+}
+.cardHover, .layout > div:first-child:not(.recent-posts), #recent-posts > .recent-post-item, #aside-content .card-widget, .layout > .recent-posts .pagination > *:not(.space) {
+  border-radius: 25px;
+}
+
 
 
 /*外链字体引入*/
 @font-face {
 	font-family: Efont;
   font-display: swap;
-	src: url('https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_Rg.woff2') format('woff2')
+	src: url('https://cdn-static.sspai.com/ui/iconfont-v1.6/fonts/iconfont.ttf?4pc9bw') format('ttf')
       }
-
-
-/*文章页卡片圆角*/
-.layout > div:first-child:not(.recent-posts) {
-  border-radius: 35px;
-}
 
 /*顶栏美化*/
 #nav .site-page {
