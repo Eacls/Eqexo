@@ -37,7 +37,7 @@ code_word_wrap: false
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
 copy:
-  enable: true
+  enable: false
   copyright:
     enable: true
     limit_count: 50
@@ -602,13 +602,13 @@ beautify:
 font:
   global-font-size: 16px
   code-font-size:
-  font-family: Eacfont, "Microsoft YaHei", "PingFang SC"
-  code-font-family: Eacfont, "Microsoft YaHei", "PingFang SC"
+  font-family: Efont, "Microsoft YaHei", "PingFang SC"
+  code-font-family: Efont, "Microsoft YaHei", "PingFang SC"
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
 blog_title_font:
-  font_link: https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
+  font_link: https://cdn-static.sspai.com/ui/iconfont-v1.6/fonts/iconfont.ttf?4pc9bw
   font-family:
 
 # The setting of divider icon (水平分隔線圖標設置)

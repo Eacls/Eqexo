@@ -4,72 +4,24 @@
     overflow: hidden;
   }
 
-/*侧边滑动颜色*/
-:root {
-    --btn-bg: #3a87b9;
-  }
-
-/*底部切换按钮*/
-.layout>.recent-posts .pagination>* {
-    display: inline-block;
-    margin: 0 6px;
-    width: 2.5em;
-    height: 2.5em;
-    line-height: 2.5em;
-  }
   
 /*底部圆角*/
 #pagination .page-number.current {
-    border-radius: 7px;
+    border-radius: 14px;
   }
 
-/*首页文章卡片高度*/
-#recent-posts > .recent-post-item {
-    height: 17em;
-  }
 
 /*外链字体引入*/
 @font-face {
-	font-family: Eacfont;
+	font-family: Efont;
   font-display: swap;
-	src: url('https://cdn.cnbj1.fds.api.mi-img.com/mi-font-service/misans/500/lt.53f5494eba0de730.0.woff2') format('woff2')
+	src: url('https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_Rg.woff2') format('woff2')
       }
 
-/*文章页卡片宽幅占比*/
-.layout {
-        max-width: 1280px;
-    }
 
 /*文章页卡片圆角*/
 .layout > div:first-child:not(.recent-posts) {
   border-radius: 35px;
-}
-
-/*文章页信息栏美化*/
-#post-info .post-title {
-  font-weight: 600;
-  font-size: 2.5em;
-  line-height: 2.2;
-  letter-spacing: 9px;
-}
-
-/*信息栏高度调整*/
-#page-header.post-bg {
-  height: 26rem;
-}
-
-/*Web端信息栏适配*/
-@media screen and (min-width: 421px){
-  #page-header #post-info {
-    bottom: 8rem;
-}
-}
-
-/*Wap端信息栏适配*/
-@media screen and (max-width: 420px){
-  #page-header #post-info {
-    bottom: 2rem;
-}
 }
 
 /*顶栏美化*/
@@ -84,52 +36,4 @@
 }
 #page-header.nav-fixed #nav {
   top: -70px;
-}
-
-/*文章页目录卡片圆角*/
-#aside-content .card-widget {
-  border-radius: 20px;
-}
-
-/*文章页目录美化*/
-#aside-content .card-widget {
-  padding: 2rem 1.2rem;
-}
-
-#aside-content #card-toc .toc-content .toc-link.active {
-  background: #669cbe;
-  border-radius: 5px;
-}
-
-/*调宽页脚*/
-#footer-wrap {
-  padding: 3rem 2rem;
-}
-
-/*版权卡片美化*/
-#post .post-copyright {
-  position: relative;
-  margin: 2rem 0 0.5rem;
-  padding: 1.5rem 0.8rem;
-  border: 8px solid #f6f6f6;
-  border-radius: 20px;
-}
-
-#post .post-copyright:before {
-  position: absolute;
-  top: -1.9rem;
-  color: #49b1f540;
-  font-size: 6rem;
-}
-
-/*文章分页卡片美化*/
-#pagination .prev-post a, #pagination .next-post a {
-  border-style: ridge;
-  border-width: 8px;
-  border-color: #d2d2d2;
-}
-
-/*文章相关推荐卡片美化*/
-.relatedPosts > .relatedPosts-list > div {
-  border-radius: 20px;
 }
