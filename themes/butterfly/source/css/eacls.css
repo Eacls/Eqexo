@@ -433,3 +433,9 @@ font-size: 1.2em;
   text-align: left;
   background-color: #203e57;
 }
+
+/*选中颜色*/
+*::selection {
+  background: #df3030;
+  color: #f7f7f7;
+}
