@@ -15,7 +15,9 @@
 .cardHover, .layout > div:first-child:not(.recent-posts), #recent-posts > .recent-post-item, #aside-content .card-widget, .layout > .recent-posts .pagination > *:not(.space) {
   border-radius: 19px;
 }
-
+#pagination .page-number.current {
+  border-radius: 11px;
+}
 
 
 /*外链字体引入*/
