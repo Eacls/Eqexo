@@ -14,12 +14,8 @@ menu:
     # 音乐: /music/ || 
     # 电影: /movies/ || 
   导航: /link/
-  短文||:
-    语录: /yulu/
-    简评: /jianping/
-  关于||:
-    隐私: /about/
-    留言: /messageboard/
+  关于: /about/
+  留言: /messageboard/
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
@@ -417,7 +413,7 @@ footer:
   owner:
     enable: true
     since: 2021
-  custom_text: Copyright EACL Shige | 本站将保留一切权利 | <a href="https://icp.gov.moe/?keyword=20210171" target="_blank">隐私协议</a> | <a href="https://icp.gov.moe/?keyword=20210171" target="_blank">萌ICP备20210171号</a>
+  custom_text: Copyright EACL Shige | 本站将保留一切权利 | <a href="https://www.eacls.top/privacy/" target="_blank">隐私协议</a> | <a href="https://icp.gov.moe/?keyword=20210171" target="_blank">萌ICP备20210171号</a>                                                                                                             看一看世界的繁华
   copyright: false # Copyright of theme and framework
 
 # Analysis
