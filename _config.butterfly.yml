@@ -102,16 +102,16 @@ index_img: false
 default_top_img:
 
 # The banner image of archive page
-archive_img: http://imageproxy.chaoxing.com/0x0,q15,jpeg,sm3SiMdFzFWdC7hoBiR_eWoO5d5UgQMSz4374B-AAvLk/https://p.ananas.chaoxing.com/star3/origin/b35103c86d39ef0e0b7a0c3b5d014bab.png
+archive_img: https://preview.cloud.189.cn/image/imageAction?param=AD29DC273CC00FAF7453122D751DACEC12C892DDBAFA3EF5E4A72C51D959BE2AAB370E31F3E86701D44B89F49BC5A9AD12C28587EBB7EB7FD95B0266BAE620BCE3DFCC60BAAD653F6534212A65B40ABE5E6383DC81967C8AE75C04FE81AA010350E959DF764F2F60FF987E9EE0C7A8AE
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: http://imageproxy.chaoxing.com/0x0,q15,jpeg,sumITTL0AJGnNCN8dDXVZ21Ey6NQCP1UJE0dZA9ukEoU/https://p.ananas.chaoxing.com/star3/origin/0adb70573a4ee7b5c6114c40e94fa1e2.png
+tag_img: https://preview.cloud.189.cn/image/imageAction?param=49D365196F7069A80852F678886E306A82C6F6D2EA0BD2888B7DAFE8A5EACCB23B06CEC321B12BF7F5377F2F54CE6272210FBE5CD9ABAE0A394D3F6A3059460ED6EAB9A279837268B97950D2FBCCBB4BF244B4ECBBD939C11969DE0319C3EB77A8439C2E013DB45350CB1FD7D21EFBBC
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: http://imageproxy.chaoxing.com/0x0,q15,jpeg,sumITTL0AJGnNCN8dDXVZ21Ey6NQCP1UJE0dZA9ukEoU/https://p.ananas.chaoxing.com/star3/origin/0adb70573a4ee7b5c6114c40e94fa1e2.png
+tag_per_img: https://preview.cloud.189.cn/image/imageAction?param=49D365196F7069A80852F678886E306A82C6F6D2EA0BD2888B7DAFE8A5EACCB23B06CEC321B12BF7F5377F2F54CE6272210FBE5CD9ABAE0A394D3F6A3059460ED6EAB9A279837268B97950D2FBCCBB4BF244B4ECBBD939C11969DE0319C3EB77A8439C2E013DB45350CB1FD7D21EFBBC
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
