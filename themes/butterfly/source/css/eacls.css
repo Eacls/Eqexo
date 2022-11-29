@@ -5,13 +5,13 @@
   }
 
   
-/*底部圆角*/
+/*底部和全局圆角*/
 #pagination .page-number.current {
   background: #2d587a;
   color: #fff;
 }
 .cardHover, .layout > div:first-child:not(.recent-posts), #recent-posts > .recent-post-item, #aside-content .card-widget, .layout > .recent-posts .pagination > *:not(.space) {
-  border-radius: 25px;
+  border-radius: 19px;
 }
 
 
@@ -361,4 +361,12 @@ font-size: 1.2em;
 /*文章内图片圆角*/
 #article-container img {
   border-radius: 11px;
+}
+
+/*侧边滑动条*/
+*::-webkit-scrollbar {
+  width: 10px;
+}
+:root {
+  --scrollbar-color: #c1c1c1;
 }

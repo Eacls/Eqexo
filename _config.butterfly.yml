@@ -37,9 +37,9 @@ code_word_wrap: false
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
 copy:
-  enable: false
+  enable: true
   copyright:
-    enable: true
+    enable: false
     limit_count: 50
 
 # social settings (社交圖標設置)
@@ -508,10 +508,10 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png)
+background: 
 
 # Footer Background
-footer_bg: url
+footer_bg: 
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
@@ -550,10 +550,10 @@ canvas_nest:
 # Typewriter Effect (打字效果)
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
-  enable: true
-  colorful: true # open particle animation (冒光特效)
+  enable: false
+  colorful: false # open particle animation (冒光特效)
   shake: false #  open shake (抖動特效)
-  mobile: true
+  mobile: false
 
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
@@ -592,7 +592,7 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: true
+  enable: false
   field: post # site/post
   title-prefix-icon: '\f018'
   title-prefix-icon-color: '#87CEFA'
@@ -613,21 +613,21 @@ blog_title_font:
 
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
-  enable: true
+  enable: false
   icon: # the unicode value of Font Awesome icon, such as '\3423'
   icon-top:
 
-# the subtitle on homepage (主頁subtitle)
-# subtitle:
+  # the subtitle on homepage (主頁subtitle)
+  # subtitle:
   # enable: false
   # Typewriter Effect (打字效果)
-  # effect: true
+  # effect: false
   # Effect Speed Options (打字效果速度參數)
   # startDelay: 300 # time before typing starts in milliseconds
   # typeSpeed: 150 # type speed in milliseconds
   # backSpeed: 50 # backspacing speed in milliseconds
   # loop (循環打字)
-  #loop: true
+  # loop: true
   # source 調用第三方服務
   # source: false 關閉調用
   # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
@@ -821,8 +821,8 @@ aplayerInject:
 # 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
   enable: true
-  position: bottom-left
-  bg_light: '#49b1f5' # The background color of Toast Notification in light mode
+  position: top-left
+  bg_light: '#1b805ded' # The background color of Toast Notification in light mode
   bg_dark: '#121212' # The background color of Toast Notification in dark mode
 
 # https://instant.page/
@@ -875,8 +875,8 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="/css/back.css">
-    - <link rel="stylesheet" href="/css/background.css">
+    - <link rel="stylesheet" href="/css/eacls.css">
+    - <link rel="stylesheet" href="/css/eacls2.css">
   bottom:
     - <script src="/js/av-min.js"></script>
   
