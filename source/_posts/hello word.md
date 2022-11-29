@@ -2,7 +2,7 @@
 title: Hello World
 date: 2021-9-12
 updated: 2021-9-12
-description: 欢迎来到时格的个人博客
+description: 欢迎来到时格博客
 tags: 日志
 comments: false
 aside: false
@@ -13,10 +13,6 @@ abbrlink: 16107
 
 
 
-来自时格的个人博客站点
+来自时格的个人博客站点。  
 
-本站隐私政策详见站内“关于”：[隐私政策](https://www.eacls.top/about/)
-
-内容全仅代表个人观点
-
-声明：部分内容来自于网络，侵权删；
+你好，这个世界。

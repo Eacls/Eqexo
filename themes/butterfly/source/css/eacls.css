@@ -1,6 +1,6 @@
 /*个人信息美化*/
 #aside-content>.card-widget.card-info {
-  background: #fff url(https://www.eacls.top/img/info.webp) top -24% center no-repeat;
+  background: #fff url(https://www.eacls.top/img/info.webp) top 33% center no-repeat;
   position: relative;
 }
 #aside-content .card-info #card-info-btn {
@@ -16,7 +16,7 @@
   border-radius: 19px;
 }
 #pagination .page-number.current {
-  border-radius: 11px;
+  border-radius: 19px;
 }
 
 
