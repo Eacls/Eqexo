@@ -1,6 +1,6 @@
 /*个人信息美化*/
 #aside-content>.card-widget.card-info {
-  background: #fff url(https://www.eacls.top/img/einfo.webp) top -24% center no-repeat;
+  background: #fff url(https://www.eacls.top/img/info.webp) top -24% center no-repeat;
   position: relative;
 }
 #aside-content .card-info #card-info-btn {
@@ -423,4 +423,11 @@ font-size: 1.2em;
 }
 #aside-content .item-headline {
   font-weight: 700;
+}
+
+
+/*页脚美化*/
+#footer-wrap {
+  text-align: left;
+  background-color: #203e57;
 }

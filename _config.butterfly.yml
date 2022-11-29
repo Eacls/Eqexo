@@ -29,7 +29,7 @@ hide_sidebar_menu_child: false
 
 highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
-highlight_lang: # show the code language
+highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 highlight_height_limit: 210 # unit: px
 code_word_wrap: false
@@ -417,7 +417,7 @@ footer:
   owner:
     enable: true
     since: 2021
-  custom_text: Copyright EACL Shige | 本站将保留一切权利 | <a href="https://icp.gov.moe/?keyword=20210171" target="_blank">萌ICP备20210171号</a>
+  custom_text: Copyright EACL Shige | 本站将保留一切权利 | <a href="https://icp.gov.moe/?keyword=20210171" target="_blank">隐私协议</a> | <a href="https://icp.gov.moe/?keyword=20210171" target="_blank">萌ICP备20210171号</a>
   copyright: false # Copyright of theme and framework
 
 # Analysis
