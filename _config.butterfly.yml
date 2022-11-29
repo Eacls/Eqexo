@@ -49,6 +49,7 @@ social:
    fab fab fa-twitter: https://twitter.com/Eacls1 || Twitter
    fab fa-brands fa-square-facebook: https://www.facebook.com/profile.php?id=100050627941429 || Facebook
    fab fa-telegram-plane: https://t.me/rightea || Telegram
+   fab fa-github: https://github.com/Eacls/ || Github
 
 
 # search (搜索)
@@ -146,7 +147,7 @@ error_img:
 error_404:
   enable: false
   subtitle: 'Page Not Found'
-  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+  background: /img/404.jpg
 
 post_meta:
   page: # Home Page
@@ -417,7 +418,7 @@ footer:
     enable: true
     since: 2021
   custom_text: Copyright EACL Shige | 本站将保留一切权利 | <a href="https://icp.gov.moe/?keyword=20210171" target="_blank">萌ICP备20210171号</a>
-  copyright: true # Copyright of theme and framework
+  copyright: false # Copyright of theme and framework
 
 # Analysis
 # --------------------------------------
@@ -508,7 +509,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: 
+background: url(https://preview.cloud.189.cn/image/imageAction?param=3A7D6E662A08C67E93B51E9C01ACA587311C85003FCCB4C9B9F564824EFC7F8B928465B9977ADEE4C91156D91888D4806724F8A886A6D493BBD1692E635855FE53A8B81BD87E94298E14757BF85F2E704630D426EC3F9CEC9A0496AF1BC5A48796DCD15F2C48348CF7B5FE5C0AAC1483)
 
 # Footer Background
 footer_bg: 

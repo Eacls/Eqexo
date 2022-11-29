@@ -1,9 +1,11 @@
-/*GitHub开源*/
-#card-info-btn {
-    border-radius: 7px;
-    overflow: hidden;
-  }
-
+/*个人信息美化*/
+#aside-content>.card-widget.card-info {
+  background: #fff url(https://www.eacls.top/img/einfo.webp) top -24% center no-repeat;
+  position: relative;
+}
+#aside-content .card-info #card-info-btn {
+  display: none;
+}
   
 /*底部和全局圆角*/
 #pagination .page-number.current {
@@ -369,4 +371,56 @@ font-size: 1.2em;
 }
 :root {
   --scrollbar-color: #c1c1c1;
+}
+
+/*友链美化*/
+#article-container .flink .flink-list > .flink-list-item {
+  margin: 15px 7px;
+  height: 99px;
+  border-radius: 11px;
+  line-height: 17px;
+  border-style: double;
+  border-width: 3px;
+}
+/* 头像微调 */
+.flink-item-icon {
+  margin-right: 0 !important;
+  transition: .5s !important;
+}
+.flink-item-name,
+.flink-item-desc {
+  padding-left: 10px !important;
+}
+/* 去掉原来自带的before */
+#article-container .flink .flink-list>.flink-list-item::before {
+  content: none;
+}
+/* 鼠标经过改变背景 */
+#article-container .flink .flink-list>.flink-list-item:hover {
+  background-color: #739d8f;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+/* 鼠标经过改变文字颜色 */
+#article-container .flink .flink-list>.flink-list-item:hover a {
+  color: white !important;
+}
+/* 鼠标经过头像滚动 */
+#article-container .flink .flink-list>.flink-list-item:hover .flink-item-icon {
+  width: 60px;
+  margin-left: -70px;
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+/*侧边栏标签美化*/
+#aside-content .card-tag-cloud a {
+  color: var(--heo-fontcolor) !important;
+  font-size: 0.8rem;
+  border-radius: 9px;
+  border-style: dashed;
+}
+#aside-content .item-headline {
+  font-weight: 700;
 }
