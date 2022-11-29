@@ -115,7 +115,8 @@ artitalk:
     page: false #页面开关
   # 侧栏相关配置项
   priority: 3 #过滤器优先权
-  enable_page: '/' '/page/' # 应用页面
+  enable_page: '/' # 应用页面
+  enable_page: '/page/' # 应用页面
   layout: # 挂载容器类型
     type: class
     name: sticky_layout
