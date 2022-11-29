@@ -11,13 +11,8 @@ top_img: false
 ·时格  
 ·Peter
 ·Eacls 发起人
-……
+ ……
 {% endnote %}
-
-<center>
-<img src="https://eacls.github.io/img/touxiang.png" width="50%" height="50%" />
-display: inline-block
-</center>
 
 ## 为什么称为Eacls
 
@@ -25,9 +20,9 @@ display: inline-block
 “EACL” 是指 “Each Ahead Change Leader”。意为 “每一位率先变革的领导者”。
 “s”则为时格shige。
 “Eacls”是EACL Shige。
-Eacls 是一个规划于理想的范畴，不同于一般的组织。 
-这个范畴的存在是为了这世上那些偏执狂们，偏执的设计，偏执的科技。 
-为了那些现在看起来疯狂的举动，为了那些超越这个时代的存在。
+ Eacls 是一个规划于理想的范畴，不同于一般的组织。 
+ 这个范畴的存在是为了这世上那些偏执狂们，偏执的设计，偏执的科技。 
+ 为了那些现在看起来疯狂的举动，为了那些超越这个时代的存在。
 {% endnote %}
 
 ## 为什么建立博客
