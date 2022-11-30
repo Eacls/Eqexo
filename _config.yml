@@ -168,9 +168,9 @@ magnet:
     - name: 本站日志
       display_name: 本站日志
       icon: 📑
-    - name: 过往推荐
-      display_name: 过往推荐
-      icon: 🎈
+    - name: 知识思考
+      display_name: 知识思考
+      icon: 🎇
   color_setting:
     text_color: black
     text_hover_color: black
