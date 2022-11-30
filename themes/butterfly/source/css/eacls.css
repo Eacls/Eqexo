@@ -6,6 +6,17 @@
 #aside-content .card-info #card-info-btn {
   display: none;
 }
+#aside-content .card-info .author-info__name {
+  font-weight: 700;
+  color: black;
+}
+#aside-content .card-info .author-info__description {
+  font-weight: 600;
+  color: black;
+}
+.site-data > a .headline {
+  color: rgb(0 0 0 / 100%);
+}
   
 /*底部和全局圆角*/
 #pagination .page-number.current {
