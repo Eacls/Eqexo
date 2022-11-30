@@ -8,8 +8,13 @@ tags:
 - Hexo
 title: Butterfly主题魔改美化-贰
 top_img: https://preview.cloud.189.cn/image/imageAction?param=02752F480DE3A48DEAC3B84474EE6A7E91F2EB7096FE3CFB5031FDC056FDCE95B0B560538E0DCB9DAD42A71C219139B787A37FFB8C60EBFA98919414B62F5F36F1F3685FAC9C1DCF49D2CE751B24C75184A6B13D6929656F819BFC427F0DB54DD1C88F0B693DA221EDDC6EBB8AB0E661
-updated: '2022-08-08 06:42:34'
+updated: 
+
 ---
+{% note warning simple %}
+由于版本更新，本篇的内容部分已经不再适用，请自行斟酌
+{% endnote %}
+
 ## 前言
 
 在今年年初时，我曾把过去魔改的内容记录成了文章：[魔改美化教程壹](https://www.eacls.top/posts/cecc48c5/)。半年过去，除了小修bug外没再有新的博客优化工作出现。今天抽了一整天时间，将我的博客进一步美化，打磨访客轻体验。

@@ -151,7 +151,7 @@ magnet:
   priority: 1
   enable_page: /
   type: categories
-  devide: 2
+  devide: 3
   display:
     - name: 科技前沿
       display_name: 科技前沿
@@ -165,6 +165,12 @@ magnet:
     - name: 深度好文
       display_name: 深度好文
       icon: 🎩
+    - name: 本站日志
+      display_name: 本站日志
+      icon: 📑
+    - name: 过往推荐
+      display_name: 过往推荐
+      icon: 🎈
   color_setting:
     text_color: black
     text_hover_color: black

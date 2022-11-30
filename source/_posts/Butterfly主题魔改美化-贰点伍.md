@@ -9,8 +9,13 @@ tags:
 - Hexo
 title: Butterfly主题魔改美化-贰点伍
 top_img: https://preview.cloud.189.cn/image/imageAction?param=4037525B5116A9E3A21832EF9B312D9D162FE4822D76482C36C3F59A1B9C9109FC52161B154221F75349C436842C39BEF16E2169E6A1B618734DAF99333BF2B3E757E6C29DDEEED054353664B03579C0DA901557A5B360D45E7C20F70BA6FA9A721A94D780CD50549516F4D4D647B719
-updated: '2022-11-04 22:24:55'
+updated: 
 ---
+
+{% note warning simple %}
+由于版本更新，本篇的内容部分已经不再适用，请自行斟酌
+{% endnote %}
+
 ## 为什么是贰点伍而不是叁
 
 这篇文章更多的是对 [魔改美化贰](https://www.eacls.top/posts/286b8081/) 的一个补充，完善那些在贰中未提及但影响整体协调性的点。至于叁，将会是一次大改，暂不确定出品日期。
