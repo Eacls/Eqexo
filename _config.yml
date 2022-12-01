@@ -168,8 +168,8 @@ magnet:
     - name: 本站日志
       display_name: 本站日志
       icon: 📑
-    - name: 想法思考
-      display_name: 想法思考
+    - name: 理念思考
+      display_name: 理念思考
       icon: 🎇
   color_setting:
     text_color: black
