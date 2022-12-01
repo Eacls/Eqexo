@@ -13,15 +13,15 @@ updated: '2022-11-30 19:13:17'
 ---
 ## 前言
 
-在过去建立博客的一年之间，我一共撰写了三篇Butterfly主题的美化教程，总共分为两大版本。期间我始终秉持着简洁的原则（~~技术限制~~）出了一些很小白向的教程。虽然今天的这一篇教程也都是比较简单的外挂css方式，但我认为教程``叁``即博客``3.0``已经属于比较成熟的版本了，虽然在以后可能改变我这个想法。
-感谢 [Heo](https://blog.zhheo.com)、[leonus](https://blog.leonus.cn) 所提供的样式参考以及部分源代码。
+在过去建立博客的一年之间，我一共撰写了三篇Butterfly主题的美化教程，总共分为两大版本。期间我始终秉持着简洁的原则（~~技术限制~~）出了一些很小白向的教程。虽然今天的这一篇教程也都是比较简单的外挂css方式，但我认为教程 ``叁``即博客 ``3.0``已经属于比较成熟的版本了，虽然在以后可能改变我这个想法。
+感谢 [Heo](https://blog.zhheo.com)、[Leonus](https://blog.leonus.cn) 所提供的样式参考以及部分源代码。
 
 {% note info flat %}
 本篇教程基于Butterfly主题4.5.1版本。
 {% endnote %}
 
 {% note info flat %}
-如果你想全局应用本站样式，可以F12自行获取``eacls.css``以及``eacls2.css``。
+如果你想全局应用本站样式，可以F12自行获取 ``eacls.css``以及 ``eacls2.css``。
 {% endnote %}
 
 ---
@@ -59,6 +59,7 @@ updated: '2022-11-30 19:13:17'
   color: rgb(0 0 0 / 100%);
 }
 ```
+
 <!-- endtab -->
 
 {% endtabs %}
@@ -118,6 +119,7 @@ updated: '2022-11-30 19:13:17'
   color: var(--heo-lighttext);
 }
 ```
+
 <!-- endtab -->
 
 {% endtabs %}
@@ -187,6 +189,7 @@ updated: '2022-11-30 19:13:17'
   margin: 0px 0.4rem;
 }
 ```
+
 <!-- endtab -->
 
 {% endtabs %}
@@ -386,6 +389,7 @@ updated: '2022-11-30 19:13:17'
     border-style: solid;
 }
 ```
+
 <!-- endtab -->
 
 {% endtabs %}
@@ -417,6 +421,7 @@ updated: '2022-11-30 19:13:17'
   line-height: 40px;
 }
 ```
+
 <!-- endtab -->
 
 {% endtabs %}
@@ -441,11 +446,13 @@ updated: '2022-11-30 19:13:17'
   border-radius: 7px;
 }
 ```
+
 <!-- endtab -->
 
 {% endtabs %}
 
 ## 本地搜索框
+
 {% tabs test4 %}
 
 <!-- tab 预览 -->
@@ -472,6 +479,7 @@ hr {
   border: 3px dashed #4f80d8;
 }
 ```
+
 <!-- endtab -->
 
 {% endtabs %}
@@ -622,10 +630,3 @@ hr {
 <!-- endtab -->
 
 {% endtabs %}
-
-
-
-
-
-
-
