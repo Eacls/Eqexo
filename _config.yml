@@ -202,3 +202,16 @@ search:
   field: all
   content: true
   #template: ./search.xml
+
+# RSS订阅
+feed:
+  enable: true
+  type: rss2
+  path: rss2.xml
+  limit: 0
+  hub:
+  content: true
+  order_by: -date
+  icon: https://www.eacls.top/img/favicon.png
+  autodiscovery: true
+  template:
