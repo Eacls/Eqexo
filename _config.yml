@@ -208,7 +208,7 @@ feed:
   enable: true
   type: rss2
   path: rss2.xml
-  limit: 0
+  limit: 20
   hub:
   content: true
   order_by: -date
