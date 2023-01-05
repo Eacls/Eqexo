@@ -413,7 +413,7 @@ footer:
   owner:
     enable: true
     since: 2021
-  custom_text: Copyright EACL Shige | 本站将保留一切权利 | <a href="https://www.eacls.top/privacy/" target="_blank">隐私协议</a> | <a href="https://icp.gov.moe/?keyword=20210171" target="_blank">萌ICP备20210171号</a> | <a href="https://www.eacls.top/rss2.xml" target="_blank">RSS订阅</a> | ——Take a look at the prosperity of the world
+  custom_text: Copyright EACL Shige | <a href="https://www.eacls.top/privacy/" target="_blank">隐私协议</a> | <a href="https://icp.gov.moe/?keyword=20210171" target="_blank">萌ICP备20210171号</a> | <a href="https://www.foreverblog.cn/blog/3938.html" target="_blank">十年之约</a> | <a href="https://bf.zzxworld.com/s/752" target="_blank">BlogFinder</a> | <a href="https://www.eacls.top/rss2.xml" target="_blank">RSS订阅</a> | ——Take a look at the prosperity of the world
   copyright: false # Copyright of theme and framework
 
 # Analysis
