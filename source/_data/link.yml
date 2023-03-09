@@ -22,10 +22,6 @@
       link: https://blog.emoao.com/
       avatar: https://blog.emoao.com/static/img/avatar.webp
       descr: 允你一世繁星，许你一世星辰！
-    - name: Kaiboshi
-      link: https://kaiboshi.gitee.io/
-      avatar: http://imageproxy.chaoxing.com/0x0,q15,jpeg,s8-vtUhl41wgQOpFfrl68JMB_BRlBOw3N8XoIe1ct2PM/https://p.ananas.chaoxing.com/star3/origin/94f37c91ccbf26c5879e6a519980fc62.png
-      descr: 做一个有梦想的咸鱼
     - name: Black Flies
       link: https://www.yyyzyyyz.cn/
       avatar: https://npm.elemecdn.com/imgscdn/img/202111191951780.JPG
@@ -40,8 +36,8 @@
       descr: 用这生命中的每一秒，给自己一个不后悔的未来
     - name: CC的部落格
       link: https://blog.ccknbc.cc/
-      avatar: https://gcore.jsdelivr.net/gh/ccknbc-backup/cdn@latest/logo/logo.png
-      descr: CC康纳百川的小窝，与你分享二三事
+      avatar: https://cdn.jsdelivr.ren/gh/ccknbc-backup/cdn/logo/ccknbc.png
+      descr: CC康纳百川的小窝
     - name: Heo
       link: https://blog.zhheo.com/
       avatar: https://blog.zhheo.com/img/avatar.png
@@ -92,7 +88,7 @@
       descr: 尖头叉子在霍格沃茨的休息室~
     - name: Baili Blog
       link: https://baili.tax/
-      avatar: https://baili-1254126104.cos.ap-guangzhou.myqcloud.com/blog/2023/01/148-148.jpg
+      avatar: https://preview.cloud.189.cn/image/imageAction?param=C21DC04BC969763379D9C9357A1089B65C799DFA863ADF8A7231744088D97D51FE786BDCE1AD8908FC8416DE582E8A3D66E4C151DC1872220E800526FCDA87EAA38D6E6FFE2E17C95A6445344C4B429EE4A32F8B2456A8A03B923C2AAE590387F2BBF412ABCF977EBFB3A2C08C33173B
       descr: 一个源码资源教程分享博客
     - name: 托尼哥的玩具博客
       link: https://www.tony-bro.com/
