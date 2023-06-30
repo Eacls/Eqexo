@@ -4,7 +4,7 @@ comments: false
 date: ''
 title: 关于
 top_img: false
-updated: 2023-6-25T11:16:44.550+8:0
+updated: 2023-6-30T15:26:59.816+8:0
 ---
 ## 我是谁
 
@@ -18,7 +18,7 @@ updated: 2023-6-25T11:16:44.550+8:0
 ## 为什么称为Eacls
 
 {% note green no-icon modern %}
-“EACL” 是指 “Every Advanced Creative Leader”。意为 “每一个先进的创造性领导者”。
+“EACL” 是指 “Every Advanced Creative Leader”。意为 “每一位先进的创造性领导者”。
 “s”则为时格shige。
 “Eacls”是EACL Shige。
 Eacls 是一个规划于理想的范畴，不同于一般的组织。
