@@ -42,10 +42,6 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-   fab fab fa-twitter: https://twitter.com/Eacls1 || Twitter
-   fab fa-brands fa-square-facebook: https://www.facebook.com/profile.php?id=100050627941429 || Facebook
-   fab fa-telegram-plane: https://t.me/rightea || Telegram
-   fab fa-github: https://github.com/Eacls/ || Github
 
 
 # search (搜索)
@@ -359,7 +355,7 @@ twikoo:
   region:
   visitor: false
   option:
-   wordLimit: 10000
+  wordLimit: 10000
 
 # Chat Services
 # --------------------------------------
