@@ -175,7 +175,7 @@ magnet:
     text_color: black
     text_hover_color: black
     background_color: white
-    background_hover_color: "#F0FFFF"
+    background_hover_color: "#2e76d6"
   layout:
     type: id
     name: recent-posts

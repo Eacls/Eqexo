@@ -1,7 +1,6 @@
 /*个人信息美化*/
 #aside-content>.card-widget.card-info {
-  background: #fff url(https://www.eacls.top/img/info.webp) top 33% center no-repeat;
-  position: relative;
+  background: #fff;
 }
 #aside-content .card-info #card-info-btn {
   display: none;
@@ -449,4 +448,19 @@ font-size: 1.2em;
 *::selection {
   background: #df3030;
   color: #f7f7f7;
+}
+
+#page-header.not-top-img #nav a {
+  color: #000000;
+}
+
+/*顶栏文字加黑*/
+#page-header.not-top-img #nav a {
+  color: #000000;
+}
+
+/*去掉阴影*/
+:root {
+  --card-box-shadow: none;
+  --card-hover-box-shadow: none;
 }
