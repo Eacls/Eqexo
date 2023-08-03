@@ -355,7 +355,6 @@ twikoo:
   region:
   visitor: false
   option:
-  wordLimit: 10000
 
 # Chat Services
 # --------------------------------------
