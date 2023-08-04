@@ -174,11 +174,15 @@ hr {
   width: 40px;
   height: 40px;
   border-radius: 25px;
-  background-color: #f1f1f1;
-  color: #2d587a;
+  background-color: #bdbdbd52;
+  color: #000000;
   text-align: center;
   font-size: 16px;
   line-height: 40px;
+}
+
+#rightside > div > button:hover, #rightside > div > a:hover {
+  background-color: #fefbe6;
 }
 
 /* 版权信息 */
@@ -382,7 +386,7 @@ font-size: 1.2em;
   width: 10px;
 }
 :root {
-  --scrollbar-color: #c1c1c1;
+  --scrollbar-color: #8b8b8ba1;
 }
 
 /*友链美化*/
