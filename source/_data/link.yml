@@ -16,7 +16,7 @@
 
 
 - class_name: 友情链接
-  class_desc: 不代表博主偏好推荐
+  class_desc: 不一定代表博主偏好推荐
   link_list:
     - name: 梦繁星
       link: https://blog.emoao.com/
