@@ -18,10 +18,6 @@
 - class_name: 友情链接
   class_desc: 不一定代表博主偏好推荐
   link_list:
-    - name: 梦繁星
-      link: https://blog.emoao.com/
-      avatar: https://blog.emoao.com/static/img/avatar.webp
-      descr: 允你一世繁星，许你一世星辰！
     - name: Black Flies
       link: https://www.yyyzyyyz.cn/
       avatar: https://npm.elemecdn.com/imgscdn/img/202111191951780.JPG
@@ -56,7 +52,7 @@
       descr: 妙不可言
     - name: Tianli
       link: https://tianli-blog.club/
-      avatar: https://img1.tianli0.top/logo.png
+      avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=507249007&spec=640
       descr: 惟其不可能，所以才相信。
     - name: Yuexin’s Blog
       link: https://wyxogo.top/
@@ -103,7 +99,7 @@
       avatar: https://picbed.saop.cc/Asuna/Asuna1x1.png
       descr: 我们终会相遇相知，在那悠远的苍穹
     - name: 柠萌の部落
-      link: https://www.lemonbuluo.eu.org/
-      avatar: https://www.lemonbuluo.eu.org/img/lemonsuka.webp
+      link: https://www.skira.top/
+      avatar: https://www.skira.top/img/lemonsuka.webp
       descr: 一个闲聊萌新动漫技术交流站
 
