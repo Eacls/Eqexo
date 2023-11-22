@@ -468,3 +468,8 @@ font-size: 1.2em;
   --card-box-shadow: none;
   --card-hover-box-shadow: none;
 }
+
+/*头像不旋转*/
+.avatar-img img {
+  transition: none! important;
+}
